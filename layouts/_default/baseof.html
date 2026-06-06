@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" dir="ltr">
+<head>
+  {{ partial "head/meta.html" . }}
+</head>
+<body class="site">
+
+  {{ partial "nav/navbar.html" . }}
+
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer/footer.html" . }}
+
+  {{ partial "social/whatsapp-fab.html" . }}
+
+  <script src="/js/lang-redirect.js"></script>
+  {{ block "scripts" . }}{{ end }}
+
+</body>
+</html>

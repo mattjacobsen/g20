@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="max-w-5xl mx-auto px-4 py-12">
+
+  <h1 class="text-4xl font-extrabold text-stone-800 mb-2 text-center">{{ i18n "menu_heading" }}</h1>
+  <p class="text-center text-stone-400 mb-12 text-sm uppercase tracking-widest">restaurant-g20.com</p>
+
+  {{ $categories := slice "starters" "mains" "grills" "salads" "desserts" "drinks" }}
+  {{ $items := where .Site.RegularPages "Section" "menu" }}
+
+  {{ range $categories }}
+  {{ $cat := . }}
+  {{ $catItems := where $items "Params.category" $cat }}
+  {{ if $catItems }}
+
+  <section class="mb-14">
+    <h2 class="text-xs font-bold uppercase tracking-widest text-amber-600 mb-4 pb-2 border-b border-stone-200">
+      {{ i18n (printf "menu_%s" $cat) }}
+    </h2>
+    <div class="divide-y divide-stone-100">
+      {{ range sort $catItems "Params.weight" }}
+      <article class="py-5 flex gap-4 items-start">
+
+        <!-- Photo (optional) -->
+        {{ with .Params.photo }}
+        <div class="flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden bg-stone-100">
+          <img src="/photos/{{ . }}" alt="{{ $.Title }}"
+               class="w-full h-full object-cover"
+               loading="lazy"
+               onerror="this.parentElement.style.display='none'" />
+        </div>
+        {{ end }}
+
+        <!-- Details -->
+        <div class="flex-1 min-w-0">
+          <div class="flex justify-between items-baseline gap-2 mb-1">
+            <h3 class="font-bold text-stone-800 text-base">
+              {{ .Title }}
+              {{ if .Params.vegetarian }}
+              <span class="ml-1 text-xs font-normal text-green-600 border border-green-300 rounded px-1">{{ i18n "menu_veg" }}</span>
+              {{ end }}
+            </h3>
+            <span class="flex-shrink-0 font-semibold text-amber-600 tabular-nums">{{ .Params.price }} L</span>
+          </div>
+          <p class="text-stone-500 text-sm mb-2">{{ .Summary }}</p>
+          {{ with .Params.ingredients }}
+          <p class="text-stone-400 text-xs">{{ delimit . ", " }}</p>
+          {{ end }}
+        </div>
+
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ end }}
+  {{ end }}
+
+</div>
+{{ end }}

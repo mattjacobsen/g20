@@ -1,0 +1,31 @@
+# i18n/en.yaml  –  English UI strings
+nav_menu:       "Menu"
+nav_contact:    "Contact"
+nav_about:      "About"
+
+hero_tagline:   "The authentic taste of Albania"
+
+menu_heading:   "Our Menu"
+menu_starters:  "Starters"
+menu_mains:     "Main Courses"
+menu_grills:    "From the Grill"
+menu_salads:    "Salads"
+menu_desserts:  "Desserts"
+menu_drinks:    "Drinks"
+menu_price:     "Price"
+menu_allergens: "Allergens"
+menu_veg:       "Vegetarian"
+
+contact_heading:   "Contact Us"
+contact_phone:     "Phone"
+contact_address:   "Address"
+contact_hours:     "Opening Hours"
+contact_hours_weekdays: "Mon – Fri"
+contact_hours_weekend:  "Sat – Sun"
+contact_whatsapp:  "Message us on WhatsApp"
+contact_maps_google: "Open in Google Maps"
+contact_maps_apple:  "Open in Apple Maps"
+
+social_follow:  "Follow us"
+
+footer_rights:  "All rights reserved"

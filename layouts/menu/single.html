@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="max-w-2xl mx-auto px-4 py-12">
+
+  <!-- Back link -->
+  <a href="{{ "/menu/" | relLangURL }}" class="inline-flex items-center gap-1 text-sm text-stone-400 hover:text-amber-600 mb-8 transition-colors">
+    ← {{ i18n "nav_menu" }}
+  </a>
+
+  {{ with .Params.photo }}
+  <div class="aspect-video rounded-2xl overflow-hidden bg-stone-100 mb-8">
+    <img src="/photos/{{ . }}" alt="{{ $.Title }}"
+         class="w-full h-full object-cover" />
+  </div>
+  {{ end }}
+
+  <div class="flex justify-between items-start mb-4">
+    <h1 class="text-3xl font-extrabold text-stone-800">{{ .Title }}</h1>
+    <span class="text-2xl font-bold text-amber-600 tabular-nums">{{ .Params.price }} L</span>
+  </div>
+
+  <div class="prose prose-stone max-w-none mb-6">{{ .Content }}</div>
+
+  {{ with .Params.ingredients }}
+  <div class="mb-4">
+    <span class="text-xs uppercase tracking-widest text-stone-400 mr-2">Ingredients:</span>
+    <span class="text-stone-600 text-sm">{{ delimit . ", " }}</span>
+  </div>
+  {{ end }}
+
+  {{ with .Params.allergens }}
+  <div class="mb-4">
+    <span class="text-xs uppercase tracking-widest text-stone-400 mr-2">{{ i18n "menu_allergens" }}:</span>
+    <span class="text-stone-500 text-sm">{{ delimit . ", " }}</span>
+  </div>
+  {{ end }}
+
+</div>
+{{ end }}

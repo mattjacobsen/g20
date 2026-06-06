@@ -1,0 +1,44 @@
+# netlify.toml
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command   = "hugo --minify"
+  publish   = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.128.0"   # pin to a specific Hugo version
+
+# ── Deploy previews (pull requests get a preview URL) ─────────────────────
+[context.deploy-preview]
+  command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
+
+# ── Branch deploys ─────────────────────────────────────────────────────────
+[context.branch-deploy]
+  command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
+
+# ── HTTP headers ───────────────────────────────────────────────────────────
+
+# Aggressive caching for hashed assets
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/photos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"   # 7 days
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options         = "DENY"
+    X-Content-Type-Options  = "nosniff"
+    Referrer-Policy         = "strict-origin-when-cross-origin"
+    Permissions-Policy      = "camera=(), microphone=(), geolocation=()"

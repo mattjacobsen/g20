@@ -1,0 +1,31 @@
+# i18n/sq.yaml  –  Albanian UI strings
+nav_menu:       "Menu"
+nav_contact:    "Kontakt"
+nav_about:      "Rreth Nesh"
+
+hero_tagline:   "Shija e vërtetë shqiptare"
+
+menu_heading:   "Menuja Jonë"
+menu_starters:  "Antipasta"
+menu_mains:     "Pjata Kryesore"
+menu_grills:    "Skara"
+menu_salads:    "Sallata"
+menu_desserts:  "Ëmbëlsira"
+menu_drinks:    "Pije"
+menu_price:     "Çmimi"
+menu_allergens: "Alergjene"
+menu_veg:       "Vegetarian"
+
+contact_heading:   "Na Kontaktoni"
+contact_phone:     "Telefon"
+contact_address:   "Adresa"
+contact_hours:     "Orari i Punës"
+contact_hours_weekdays: "E Hënë – E Premte"
+contact_hours_weekend:  "E Shtunë – E Diel"
+contact_whatsapp:  "Na shkruani në WhatsApp"
+contact_maps_google: "Hap në Google Maps"
+contact_maps_apple:  "Hap në Apple Maps"
+
+social_follow:  "Na ndiqni"
+
+footer_rights:  "Të gjitha të drejtat e rezervuara"

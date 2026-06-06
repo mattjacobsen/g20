@@ -1,0 +1,31 @@
+# i18n/de.yaml  –  German UI strings
+nav_menu:       "Speisekarte"
+nav_contact:    "Kontakt"
+nav_about:      "Über uns"
+
+hero_tagline:   "Echter albanischer Geschmack"
+
+menu_heading:   "Unsere Speisekarte"
+menu_starters:  "Vorspeisen"
+menu_mains:     "Hauptgerichte"
+menu_grills:    "Vom Grill"
+menu_salads:    "Salate"
+menu_desserts:  "Nachspeisen"
+menu_drinks:    "Getränke"
+menu_price:     "Preis"
+menu_allergens: "Allergene"
+menu_veg:       "Vegetarisch"
+
+contact_heading:   "Kontakt"
+contact_phone:     "Telefon"
+contact_address:   "Adresse"
+contact_hours:     "Öffnungszeiten"
+contact_hours_weekdays: "Mo – Fr"
+contact_hours_weekend:  "Sa – So"
+contact_whatsapp:  "Auf WhatsApp schreiben"
+contact_maps_google: "In Google Maps öffnen"
+contact_maps_apple:  "In Apple Maps öffnen"
+
+social_follow:  "Folgen Sie uns"
+
+footer_rights:  "Alle Rechte vorbehalten"

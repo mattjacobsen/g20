@@ -1,0 +1,75 @@
+baseURL = "https://restaurant-g20.com/"
+title   = "Restorant G20"
+
+# Default language (Albanian)
+defaultContentLanguage = "sq"
+defaultContentLanguageInSubdir = false   # Albanian at root, others at /de/ /en/
+
+enableRobotsTXT = true
+summaryLength   = 30
+
+[languages]
+
+  [languages.sq]
+    languageName = "Shqip"
+    languageCode = "sq"
+    weight       = 1
+    title        = "Restorant G20"
+    contentDir   = "content/sq"
+
+    [languages.sq.params]
+      description = "Restorant tradicional shqiptar në zemër të qytetit."
+
+  [languages.de]
+    languageName = "Deutsch"
+    languageCode = "de"
+    weight       = 2
+    title        = "Restaurant G20"
+    contentDir   = "content/de"
+
+    [languages.de.params]
+      description = "Traditionelle albanische Küche im Herzen der Stadt."
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    weight       = 3
+    title        = "Restaurant G20"
+    contentDir   = "content/en"
+
+    [languages.en.params]
+      description = "Traditional Albanian cuisine in the heart of the city."
+
+# ── Global params ─────────────────────────────────────────────────────────────
+[params]
+  # Contact — edit these when details change
+  phone          = "+355 XX XXX XXXX"        # ← replace
+  whatsapp       = "355XXXXXXXXX"            # ← replace (no + or spaces)
+  address        = "Rruga G20, Tirana, Albania"  # ← replace
+  googleMapsURL  = "https://maps.google.com/?q=Restorant+G20+Tirana"  # ← replace
+  appleMapsURL   = "https://maps.apple.com/?q=Restorant+G20+Tirana"   # ← replace
+  googleMapsEmbed = "https://www.google.com/maps/embed?pb=YOUR_EMBED_ID"  # ← replace
+
+  # Social media — leave empty ("") to hide the icon
+  instagram = "https://instagram.com/YOUR_HANDLE"   # ← replace
+  facebook  = "https://facebook.com/YOUR_PAGE"      # ← replace
+
+  # Opening hours — edit as needed
+  [[params.hours]]
+    days  = "E Hënë – E Premte"   # shown in Albanian; i18n strings handle translation
+    label = "weekdays"
+    open  = "11:00"
+    close = "23:00"
+
+  [[params.hours]]
+    days  = "E Shtunë – E Diel"
+    label = "weekend"
+    open  = "10:00"
+    close = "24:00"
+
+# ── Menus (nav) ───────────────────────────────────────────────────────────────
+# Hugo multilingual menus: define per-language in i18n / content _index files
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true   # allow HTML in Markdown (e.g. <br> in descriptions)
