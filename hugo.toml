@@ -43,15 +43,17 @@ summaryLength   = 30
 # ── Global params ─────────────────────────────────────────────────────────────
 [params]
   # Contact — edit these when details change
-  phone          = "+355 XX XXX XXXX"        # ← replace
-  whatsapp       = "355XXXXXXXXX"            # ← replace (no + or spaces)
-  address        = "Rruga G20, Tirana, Albania"  # ← replace
-  googleMapsURL  = "https://maps.google.com/?q=Restorant+G20+Tirana"  # ← replace
-  appleMapsURL   = "https://maps.apple.com/?q=Restorant+G20+Tirana"   # ← replace
+  phone          = "+355 69 662 8215"
+  whatsapp       = "00355696628215"
+  address        = "E851 Sh1, Lezhë 4501, Albania"
+  coordinates    = "41.700610, 19.668695"
+  googleMapsURL  = "https://maps.app.goo.gl/mnDbAbcEAcyF9onL8"
+  appleMapsURL   = "https://maps.apple/p/Ws03Q0gGXTr5V3"
   googleMapsEmbed = "https://www.google.com/maps/embed?pb=YOUR_EMBED_ID"  # ← replace
+  #<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2978.9224222396583!2d19.6661203!3d41.7006104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1351df87a4d8fbbf%3A0x4bbcb39beba0a016!2sRestorant%20GRILLED%20Best%20bar%20G-20!5e0!3m2!1sde!2sde!4v1780756097132!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   # Social media — leave empty ("") to hide the icon
-  instagram = "https://instagram.com/YOUR_HANDLE"   # ← replace
+  instagram = "https://www.instagram.com/restorant_g20_/"   # ← replace
   facebook  = "https://facebook.com/YOUR_PAGE"      # ← replace
 
   # Opening hours — edit as needed
@@ -64,8 +66,8 @@ summaryLength   = 30
   [[params.hours]]
     days  = "E Shtunë – E Diel"
     label = "weekend"
-    open  = "10:00"
-    close = "24:00"
+    open  = "11:00"
+    close = "23:00"
 
 # ── Menus (nav) ───────────────────────────────────────────────────────────────
 # Hugo multilingual menus: define per-language in i18n / content _index files
