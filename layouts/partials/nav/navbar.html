@@ -1,20 +1,15 @@
-<header class="site-header sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-stone-200">
-  <nav class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+<header class="site-header">
+  <nav class="nav">
 
-    <!-- Logo / site name -->
-    <a href="{{ "/" | relLangURL }}" class="text-xl font-bold tracking-tight text-stone-800">
-      G20
-    </a>
+    <a href="{{ "/" | relLangURL }}" class="nav__logo">G20</a>
 
-    <!-- Primary nav links -->
-    <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-stone-600">
-      <li><a href="{{ "/menu/" | relLangURL }}"   class="hover:text-amber-600 transition-colors">{{ i18n "nav_menu" }}</a></li>
-      <li><a href="{{ "/pages/contact/" | relLangURL }}" class="hover:text-amber-600 transition-colors">{{ i18n "nav_contact" }}</a></li>
+    <ul class="nav__links">
+      <li><a href="{{ "/menu/" | relLangURL }}">{{ i18n "nav_menu" }}</a></li>
+      <li><a href="{{ "/pages/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a></li>
     </ul>
 
-    <div class="flex items-center gap-4">
-      <!-- Language switcher -->
-      <div class="flex items-center gap-2 text-sm">
+    <div class="nav__actions">
+      <div class="nav__lang">
         {{ range .Site.Languages }}
           {{ $lang := .Lang }}
           {{ $isCurrent := eq $lang $.Lang }}
@@ -25,19 +20,15 @@
           {{ range $.Translations }}
             {{ if eq .Lang $lang }}{{ $href = .RelPermalink }}{{ end }}
           {{ end }}
-          <a href="{{ $href }}"
-             class="{{ if $isCurrent }}font-bold text-amber-600{{ else }}text-stone-400 hover:text-stone-700{{ end }} uppercase tracking-widest text-xs transition-colors">
-            {{ $lang }}
-          </a>
+          <a href="{{ $href }}"{{ if $isCurrent }} class="is-current"{{ end }}>{{ $lang }}</a>
         {{ end }}
       </div>
 
-      <!-- WhatsApp CTA (mobile) -->
       <a href="https://wa.me/{{ .Site.Params.whatsapp }}"
          target="_blank" rel="noopener"
-         class="md:hidden inline-flex items-center justify-center w-9 h-9 rounded-full bg-green-500 text-white"
+         class="nav__whatsapp"
          aria-label="WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
           <path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.122 1.535 5.857L.057 23.882l6.18-1.622A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.893 9.893 0 0 1-5.032-1.374l-.361-.214-3.741.982.999-3.648-.235-.374A9.861 9.861 0 0 1 2.107 12C2.107 6.523 6.523 2.107 12 2.107S21.893 6.523 21.893 12 17.477 21.894 12 21.894z"/>
         </svg>

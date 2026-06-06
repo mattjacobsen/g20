@@ -1,55 +1,44 @@
 {{ define "main" }}
-<div class="max-w-5xl mx-auto px-4 py-12">
+<div class="contact-page">
 
-  <h1 class="text-4xl font-extrabold text-stone-800 mb-10 text-center">{{ i18n "contact_heading" }}</h1>
+  <h1 class="contact-page__heading">{{ i18n "contact_heading" }}</h1>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+  <div class="contact-grid">
 
-    <!-- Left: details -->
-    <div class="space-y-8">
+    <div class="contact-details">
 
-      <!-- Phone -->
-      <div>
-        <h2 class="text-xs uppercase tracking-widest font-bold text-amber-600 mb-2">{{ i18n "contact_phone" }}</h2>
-        <a href="tel:{{ .Site.Params.phone }}"
-           class="text-2xl font-semibold text-stone-800 hover:text-amber-600 transition-colors">
-          {{ .Site.Params.phone }}
-        </a>
+      <div class="contact-detail">
+        <span class="contact-detail__label">{{ i18n "contact_phone" }}</span>
+        <a href="tel:{{ .Site.Params.phone }}" class="contact-detail__link">{{ .Site.Params.phone }}</a>
       </div>
 
-      <!-- Address -->
-      <div>
-        <h2 class="text-xs uppercase tracking-widest font-bold text-amber-600 mb-2">{{ i18n "contact_address" }}</h2>
-        <p class="text-stone-700">{{ .Site.Params.address }}</p>
-        <div class="flex flex-wrap gap-3 mt-3">
-          <a href="{{ .Site.Params.googleMapsURL }}" target="_blank" rel="noopener"
-             class="inline-flex items-center gap-2 px-4 py-2 bg-stone-800 text-white rounded-full text-sm hover:bg-stone-700 transition-colors">
+      <div class="contact-detail">
+        <span class="contact-detail__label">{{ i18n "contact_address" }}</span>
+        <p class="contact-detail__text">{{ .Site.Params.address }}</p>
+        <div class="contact-maps">
+          <a href="{{ .Site.Params.googleMapsURL }}" target="_blank" rel="noopener" class="btn btn--dark">
             🗺 {{ i18n "contact_maps_google" }}
           </a>
-          <a href="{{ .Site.Params.appleMapsURL }}" target="_blank" rel="noopener"
-             class="inline-flex items-center gap-2 px-4 py-2 bg-stone-800 text-white rounded-full text-sm hover:bg-stone-700 transition-colors">
+          <a href="{{ .Site.Params.appleMapsURL }}" target="_blank" rel="noopener" class="btn btn--dark">
             🍎 {{ i18n "contact_maps_apple" }}
           </a>
         </div>
       </div>
 
-      <!-- Opening hours -->
-      <div>
-        <h2 class="text-xs uppercase tracking-widest font-bold text-amber-600 mb-2">{{ i18n "contact_hours" }}</h2>
-        <ul class="space-y-2">
+      <div class="contact-detail">
+        <span class="contact-detail__label">{{ i18n "contact_hours" }}</span>
+        <ul class="contact-hours">
           {{ range .Site.Params.hours }}
-          <li class="flex justify-between text-stone-700">
+          <li class="contact-hours__row">
             <span>{{ if eq .label "weekdays" }}{{ i18n "contact_hours_weekdays" }}{{ else }}{{ i18n "contact_hours_weekend" }}{{ end }}</span>
-            <span class="font-semibold tabular-nums text-stone-800">{{ .open }} – {{ .close }}</span>
+            <span>{{ .open }} – {{ .close }}</span>
           </li>
           {{ end }}
         </ul>
       </div>
 
-      <!-- WhatsApp CTA -->
-      <a href="https://wa.me/{{ .Site.Params.whatsapp }}" target="_blank" rel="noopener"
-         class="inline-flex items-center gap-3 px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-full transition-colors shadow-md">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <a href="https://wa.me/{{ .Site.Params.whatsapp }}" target="_blank" rel="noopener" class="btn btn--whatsapp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zM12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.122 1.535 5.857L.057 23.882l6.18-1.622A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.894a9.893 9.893 0 0 1-5.032-1.374l-.361-.214-3.741.982.999-3.648-.235-.374A9.861 9.861 0 0 1 2.107 12C2.107 6.523 6.523 2.107 12 2.107S21.893 6.523 21.893 12 17.477 21.894 12 21.894z"/>
         </svg>
         {{ i18n "contact_whatsapp" }}
@@ -57,13 +46,10 @@
 
     </div>
 
-    <!-- Right: Google Maps embed -->
-    <div class="rounded-2xl overflow-hidden shadow-md h-80 md:h-auto bg-stone-200">
-      <!-- Replace the src with your actual Google Maps embed URL from hugo.toml -->
+    <div class="contact-map">
       <iframe
         src="{{ .Site.Params.googleMapsEmbed }}"
         width="100%" height="100%"
-        style="border:0; min-height:320px;"
         allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
         title="Restaurant G20 on Google Maps">

@@ -21,11 +21,8 @@
 {{ end }}
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 
-<!-- Tailwind CSS (CDN — swap for local build in production for perf) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@3/dist/tailwind.min.css" />
-
-<!-- Site stylesheet (overrides & custom properties) -->
-<link rel="stylesheet" href="/css/site.css" />
+{{ $style := resources.Get "scss/main.scss" | css.Sass | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" />
 
 <!-- Favicon -->
 <link rel="icon" href="/icons/favicon.ico" />

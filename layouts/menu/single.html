@@ -1,36 +1,32 @@
 {{ define "main" }}
-<div class="max-w-2xl mx-auto px-4 py-12">
+<div class="dish-page">
 
-  <!-- Back link -->
-  <a href="{{ "/menu/" | relLangURL }}" class="inline-flex items-center gap-1 text-sm text-stone-400 hover:text-amber-600 mb-8 transition-colors">
-    ← {{ i18n "nav_menu" }}
-  </a>
+  <a href="{{ "/menu/" | relLangURL }}" class="dish__back">← {{ i18n "nav_menu" }}</a>
 
   {{ with .Params.photo }}
-  <div class="aspect-video rounded-2xl overflow-hidden bg-stone-100 mb-8">
-    <img src="/photos/{{ . }}" alt="{{ $.Title }}"
-         class="w-full h-full object-cover" />
+  <div class="dish__photo">
+    <img src="/photos/{{ . }}" alt="{{ $.Title }}" />
   </div>
   {{ end }}
 
-  <div class="flex justify-between items-start mb-4">
-    <h1 class="text-3xl font-extrabold text-stone-800">{{ .Title }}</h1>
-    <span class="text-2xl font-bold text-amber-600 tabular-nums">{{ .Params.price }} L</span>
+  <div class="dish__header">
+    <h1 class="dish__title">{{ .Title }}</h1>
+    <span class="dish__price">{{ .Params.price }} L</span>
   </div>
 
-  <div class="prose prose-stone max-w-none mb-6">{{ .Content }}</div>
+  <div class="prose">{{ .Content }}</div>
 
   {{ with .Params.ingredients }}
-  <div class="mb-4">
-    <span class="text-xs uppercase tracking-widest text-stone-400 mr-2">Ingredients:</span>
-    <span class="text-stone-600 text-sm">{{ delimit . ", " }}</span>
+  <div class="dish__meta">
+    <span class="dish__meta-label">Ingredients:</span>
+    <span class="dish__meta-value">{{ delimit . ", " }}</span>
   </div>
   {{ end }}
 
   {{ with .Params.allergens }}
-  <div class="mb-4">
-    <span class="text-xs uppercase tracking-widest text-stone-400 mr-2">{{ i18n "menu_allergens" }}:</span>
-    <span class="text-stone-500 text-sm">{{ delimit . ", " }}</span>
+  <div class="dish__meta">
+    <span class="dish__meta-label">{{ i18n "menu_allergens" }}:</span>
+    <span class="dish__meta-value">{{ delimit . ", " }}</span>
   </div>
   {{ end }}
 
