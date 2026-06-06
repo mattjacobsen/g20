@@ -1,0 +1,404 @@
+# Bar G20 – Drinks menu
+# Prices in Albanian Lek (L)
+
+# ── Hot Drinks / Të Ngrohta ───────────────────────────────────────────────────
+[[hot_drinks]]
+name_sq = "Kafe Espresso"
+name_en = "Espresso"
+name_de = "Espresso"
+price   = 70
+
+[[hot_drinks]]
+name_sq = "Makiato"
+name_en = "Macchiato"
+name_de = "Macchiato"
+price   = 80
+
+[[hot_drinks]]
+name_sq = "Kafe Amerikane"
+name_en = "Americano"
+name_de = "Americano"
+price   = 140
+
+[[hot_drinks]]
+name_sq = "Kapucino"
+name_en = "Cappuccino"
+name_de = "Cappuccino"
+price   = 120
+
+[[hot_drinks]]
+name_sq = "Kapucino e Ftohte"
+name_en = "Iced Cappuccino"
+name_de = "Eiskappuccino"
+price   = 150
+
+[[hot_drinks]]
+name_sq = "Kakao"
+name_en = "Hot Chocolate (Cocoa)"
+name_de = "Kakao"
+price   = 120
+
+[[hot_drinks]]
+name_sq = "Frappe"
+name_en = "Frappé"
+name_de = "Frappé"
+price   = 150
+
+[[hot_drinks]]
+name_sq = "Çokollatë e Ngrohte"
+name_en = "Hot Chocolate"
+name_de = "Heiße Schokolade"
+price   = 120
+
+[[hot_drinks]]
+name_sq = "Çaj"
+name_en = "Tea"
+name_de = "Tee"
+price   = 70
+
+[[hot_drinks]]
+name_sq = "Çaj Boronice"
+name_en = "Blueberry Tea"
+name_de = "Heidelbeertee"
+price   = 70
+
+[[hot_drinks]]
+name_sq = "Çaj Kamomil"
+name_en = "Chamomile Tea"
+name_de = "Kamillentee"
+price   = 70
+
+[[hot_drinks]]
+name_sq = "Çaj Limoni"
+name_en = "Lemon Tea"
+name_de = "Zitronentee"
+price   = 70
+
+[[hot_drinks]]
+name_sq = "Çaj Mali Bio"
+name_en = "Organic Mountain Tea"
+name_de = "Bio-Bergkräutertee"
+price   = 100
+
+
+# ── Soft Drinks / Pije Freskuese ─────────────────────────────────────────────
+[[soft_drinks]]
+name_sq = "Ujë Natyral"
+name_en = "Still Water"
+name_de = "Stilles Wasser"
+price   = 70
+
+[[soft_drinks]]
+name_sq = "Ujë Me Gaz"
+name_en = "Sparkling Water"
+name_de = "Mineralwasser"
+price   = 70
+
+[[soft_drinks]]
+name_sq = "Ujë i Madh"
+name_en = "Large Water"
+name_de = "Großes Wasser"
+price   = 180
+
+[[soft_drinks]]
+name_sq = "Ujë Vitamin"
+name_en = "Vitamin Water"
+name_de = "Vitaminwasser"
+price   = 100
+
+[[soft_drinks]]
+name_sq = "Coca Cola"
+name_en = "Coca-Cola"
+name_de = "Coca-Cola"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Fanta Exotic"
+name_en = "Fanta Exotic"
+name_de = "Fanta Exotic"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Lemon Soda"
+name_en = "Lemon Soda"
+name_de = "Zitronenlimonade"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Orange Soda"
+name_en = "Orange Soda"
+name_de = "Orangenlimonade"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Lipton Limoni"
+name_en = "Lipton Lemon Iced Tea"
+name_de = "Lipton Zitrone Eistee"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Lipton Pjeshke"
+name_en = "Lipton Peach Iced Tea"
+name_de = "Lipton Pfirsich Eistee"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Sch. Tonic"
+name_en = "Schweppes Tonic"
+name_de = "Schweppes Tonic"
+price   = 120
+
+[[soft_drinks]]
+name_sq = "Bravo"
+name_en = "Bravo Juice"
+name_de = "Bravo Saft"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Ivi Pjeshke"
+name_en = "Ivi Peach Juice"
+name_de = "Ivi Pfirsichsaft"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Ivi Limon"
+name_en = "Ivi Lemon Juice"
+name_de = "Ivi Zitronensaft"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Red Bull"
+name_en = "Red Bull"
+name_de = "Red Bull"
+price   = 250
+
+[[soft_drinks]]
+name_sq = "B52 Gri"
+name_en = "B52 Grey"
+name_de = "B52 Grau"
+price   = 150
+
+[[soft_drinks]]
+name_sq = "Golden Eagle"
+name_en = "Golden Eagle"
+name_de = "Golden Eagle"
+price   = 150
+
+
+# ── Spirits / Alkolike ────────────────────────────────────────────────────────
+[[spirits]]
+name_sq = "Johny W. Red"
+name_en = "Johnnie Walker Red Label"
+name_de = "Johnnie Walker Red Label"
+price   = 250
+
+[[spirits]]
+name_sq = "V. Smirnof"
+name_en = "Smirnoff Vodka"
+name_de = "Smirnoff Wodka"
+price   = 250
+
+[[spirits]]
+name_sq = "A. Montnenegro"
+name_en = "Amaro Montenegro"
+name_de = "Amaro Montenegro"
+price   = 250
+
+[[spirits]]
+name_sq = "Vecchia Nera"
+name_en = "Vecchia Nera"
+name_de = "Vecchia Nera"
+price   = 250
+
+[[spirits]]
+name_sq = "Gin Gordons"
+name_en = "Gordon's Gin"
+name_de = "Gordon's Gin"
+price   = 250
+
+[[spirits]]
+name_sq = "F. Branca"
+name_en = "Fernet-Branca"
+name_de = "Fernet-Branca"
+price   = 250
+
+[[spirits]]
+name_sq = "Chivas"
+name_en = "Chivas Regal"
+name_de = "Chivas Regal"
+price   = 350
+
+[[spirits]]
+name_sq = 'Uzo "12"'
+name_en = 'Ouzo "12"'
+name_de = 'Ouzo "12"'
+price   = 150
+
+[[spirits]]
+name_sq = "Limoncelo"
+name_en = "Limoncello"
+name_de = "Limoncello"
+price   = 100
+
+[[spirits]]
+name_sq = "Konjak Skenderbeu"
+name_en = "Skënderbeu Cognac"
+name_de = "Skënderbeu Cognac"
+price   = 100
+
+[[spirits]]
+name_sq = "Raki"
+name_en = "Raki (Albanian spirit)"
+name_de = "Raki (albanischer Schnaps)"
+price   = 70
+
+
+# ── Beers / Birrat ────────────────────────────────────────────────────────────
+[[beers]]
+name    = "Peroni"
+origin  = "Italy"
+price   = 150
+
+[[beers]]
+name    = "Tuborg"
+origin  = "Denmark"
+price   = 170
+
+[[beers]]
+name    = "Heineken"
+origin  = "Netherlands"
+price   = 250
+
+[[beers]]
+name    = "Nikšićko"
+origin  = "Montenegro"
+price   = 150
+
+[[beers]]
+name    = "Tirana"
+origin  = "Albania"
+price   = 170
+
+[[beers]]
+name    = "Paulaner"
+origin  = "Germany"
+price   = 300
+
+[[beers]]
+name    = "Kriko"
+origin  = "Albania"
+price   = 0  # price not legible in source image
+
+
+# ── Wines / Vererat ───────────────────────────────────────────────────────────
+[[wines]]
+name    = "Montepulciano d'Abruzzo Ca Della Rose"
+type    = "red"
+origin  = "Italy"
+price   = 1400
+
+[[wines]]
+name    = "Cabernet Cantina Della Valle"
+type    = "red"
+origin  = "Italy"
+price   = 1500
+
+[[wines]]
+name    = "Dard Merlot"
+type    = "red"
+origin  = "Albania"
+price   = 1200
+
+[[wines]]
+name    = "Primitivo IGP Portico"
+type    = "red"
+origin  = "Italy"
+price   = 1800
+
+[[wines]]
+name    = "Amarone Corte Lenguin"
+type    = "red"
+origin  = "Italy"
+price   = 4500
+
+[[wines]]
+name    = "Pinot Grigio Friuli"
+type    = "white"
+origin  = "Italy"
+price   = 1800
+
+[[wines]]
+name    = "Greco di Tufo Festi di San Gregorio"
+type    = "white"
+origin  = "Italy"
+price   = 2000
+
+[[wines]]
+name    = "Gewurztraminer Lavis Simboli"
+type    = "white"
+origin  = "Italy"
+price   = 2500
+
+[[wines]]
+name    = "Spumante Brut Cuvée"
+type    = "sparkling"
+origin  = "Italy"
+price   = 1200
+
+[[wines]]
+name    = "Gotë Vere (Wine Glass)"
+type    = "red/white"
+origin  = "house"
+price   = 150
+
+[[wines]]
+name    = "FIQ Vere Bianco 1/2"
+type    = "white"
+origin  = "Albania"
+price_half   = 400
+price_full   = 800
+
+[[wines]]
+name    = "FIQ Vere Rosie 1/2"
+type    = "rosé"
+origin  = "Albania"
+price_half   = 400
+price_full   = 800
+
+[[wines]]
+name    = "Vere Kallmet"
+type    = "red"
+origin  = "Albania"
+price   = 1600
+
+[[wines]]
+name    = "Vere Arbri Rezervë"
+type    = "red"
+origin  = "Albania"
+price   = 2500
+
+[[wines]]
+name    = "Vere Arbri Sheshi"
+type    = "red"
+origin  = "Albania"
+price   = 1800
+
+[[wines]]
+name    = "Vere Arbri Classic"
+type    = "red"
+origin  = "Albania"
+price   = 2000
+
+[[wines]]
+name    = "Verë e Hapur Shqiptare (House Albanian Wine)"
+type    = "red/white"
+origin  = "Albania"
+price   = 400
+
+
+# ── Dessert / Ëmbëlsirë ──────────────────────────────────────────────────────
+[[desserts]]
+name_sq = "Ëmbëlsirë"
+name_en = "Dessert (ask staff)"
+name_de = "Dessert (beim Personal erfragen)"
+price   = 150
