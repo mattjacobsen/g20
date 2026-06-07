@@ -7,9 +7,11 @@
 
   {{ partial "nav/navbar.html" . }}
 
+  <div class="checker-pattern--left"></div>
   <main id="main-content">
     {{ block "main" . }}{{ end }}
   </main>
+  <div class="checker-pattern--right"></div>
 
   {{ partial "footer/footer.html" . }}
 

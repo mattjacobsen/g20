@@ -37,6 +37,9 @@ $bp-md: 768px;
 html { scroll-behavior: smooth; }
 
 body {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: auto 1fr auto;
   margin: 0;
   font-family: $font-body;
   color: $stone-900;
@@ -47,6 +50,18 @@ img {
   max-width: 100%;
   display: block;
   transition: opacity 0.3s ease;
+}
+
+.checker-pattern {
+  &--left,
+  &--right {
+    background-image: repeating-conic-gradient(#ff306a 0% 25%, #12cfce 0% 50%);
+    background-size: 100px 200px;
+    grid-row: 1 / -1;
+  }
+
+  &--left  { grid-column: 1; }
+  &--right { grid-column: 3; }
 }
 
 img[loading="lazy"]       { opacity: 0; }
@@ -126,6 +141,8 @@ p  { margin: 0; }
   background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid $stone-200;
+  grid-row: 1;
+  grid-column: 1/-1;
 }
 
 .nav {
@@ -136,12 +153,15 @@ p  { margin: 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  grid-column: 1;
+  grid-row: 1
 
   &__logo {
     font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: -0.025em;
     color: $stone-800;
+    width: 100px;
   }
 
   &__links {
@@ -737,6 +757,9 @@ p  { margin: 0; }
   background-color: $stone-900;
   color: $stone-300;
   margin-top: 6rem;
+
+  grid-column: 1/-1;
+  grid-row-start: 3;
 }
 
 .footer-grid {
