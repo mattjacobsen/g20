@@ -38,7 +38,7 @@ html { scroll-behavior: smooth; scrollbar-gutter: stable both-edges; }
 
 body {
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 40px 1fr 40px;
     grid-template-rows: auto 1fr auto;
     min-height: 100dvh;
   margin: 0;
@@ -56,8 +56,8 @@ img {
 .checker-pattern {
   &--left,
   &--right {
-    background-image: repeating-conic-gradient(#ff306a 0% 25%, #12cfce 0% 50%);
-    background-size: 100px 200px;
+    background-image: repeating-conic-gradient(#d80943 0% 25%,#88d9f9 0% 50%);
+    background-size: 40px 80px;
     grid-row: 1 / -1;
   }
 
