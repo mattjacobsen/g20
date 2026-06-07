@@ -1,0 +1,4 @@
+---
+title: "Speisekarte"
+draft: false
+---
