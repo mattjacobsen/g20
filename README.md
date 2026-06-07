@@ -139,3 +139,15 @@ All in `hugo.toml` under `[params]`:
 
 Decap CMS lets Marious update content from a browser without touching code.  
 See `docs/decap-cms-setup.md` (to be added) or https://decapcms.org/docs/hugo/
+
+
+## Todo:
+
+- [] lazysizes LIQP image loading
+- [] hero image
+- [] media-queries (e.g. for left/right checker pattern)
+- [] photos for contact page
+- [] photos for food (slug -> image resolution)
+- [] gallery page
+- [] google maps proper address
+- [] LEK/€ conversion?
