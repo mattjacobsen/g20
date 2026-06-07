@@ -8,6 +8,10 @@
 [build.environment]
   HUGO_VERSION = "0.128.0"   # pin to a specific Hugo version
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # ── Deploy previews (pull requests get a preview URL) ─────────────────────
 [context.deploy-preview]
   command = "hugo --minify --baseURL $DEPLOY_PRIME_URL"
