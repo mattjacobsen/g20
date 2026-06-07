@@ -31,22 +31,23 @@
 <section class="menu-preview">
   <h2 class="menu-preview__heading">{{ i18n "menu_heading" }}</h2>
   <div class="menu-preview__grid">
-    {{ $menuItems := where (where .Site.RegularPages "Section" "menu") "Lang" .Lang }}
-    {{ range first 3 (sort $menuItems "Params.weight") }}
+    {{ $lang := .Lang }}
+    {{ range first 3 (sort hugo.Data.menu.items "weight") }}
+    {{ $item := . }}
     <article class="menu-card">
-      {{ with .Params.photo }}
+      {{ with .photo }}
       <div class="menu-card__photo">
-        <img src="/photos/{{ . }}" alt="{{ $.Title }}"
+        <img src="/photos/{{ . }}" alt="{{ index $item (printf "title_%s" $lang) }}"
              loading="lazy"
              onerror="this.parentElement.style.display='none'" />
       </div>
       {{ end }}
       <div class="menu-card__body">
         <div class="menu-card__header">
-          <h3 class="menu-card__name">{{ .Title }}</h3>
-          <span class="menu-card__price">{{ .Params.price }} L</span>
+          <h3 class="menu-card__name">{{ index . (printf "title_%s" $lang) }}</h3>
+          <span class="menu-card__price">{{ .price }} L</span>
         </div>
-        <p class="menu-card__desc">{{ .Summary }}</p>
+        <p class="menu-card__desc">{{ index . (printf "desc_%s" $lang) }}</p>
       </div>
     </article>
     {{ end }}

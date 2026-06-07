@@ -1,0 +1,1075 @@
+# Bar G20 – Food menu
+# Prices in Albanian Lek (L)
+
+[[items]]
+slug       = "antipaste"
+category   = "starters"
+price      = 800
+weight     = 36
+vegetarian = false
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Antipaste"
+title_en = "Antipasto"
+title_de = "Antipasto"
+
+desc_sq = """Pjatë e madhe ndaj-ndaj me mish të kuruar, djathëra, ullinj dhe perime zgare."""
+desc_en = """A generous sharing board of cured meats, cheeses, olives, and grilled vegetables."""
+desc_de = """Große Vorspeisenplatte mit Aufschnitt, Käse, Oliven und gegrilltem Gemüse."""
+
+ingredients_sq = ["mish të kuruar", "djathëra", "ullinj", "perime zgare", "turshi"]
+ingredients_en = ["cured meats", "cheese", "olives", "grilled vegetables", "pickles"]
+ingredients_de = ["Aufschnitt", "Käse", "Oliven", "gegrilltes Gemüse", "Eingelegtes"]
+
+[[items]]
+slug       = "befikole-mqi"
+category   = "mains"
+price      = 900
+weight     = 64
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Befikole Mqji (430 g)"
+title_en = "Veal Chops (430 g)"
+title_de = "Kalbskoteletts (430 g)"
+
+desc_sq = """Kotelet viçi me lëng, të zbukuruara me barishte dhe të pjekura mbi thëngjij."""
+desc_en = """Juicy veal chops seasoned and grilled over charcoal."""
+desc_de = """Saftige Kalbskoteletts mit Kräutern über Holzkohle gegrillt."""
+
+ingredients_sq = ["biftek viçi", "barishte", "vaj ulliri"]
+ingredients_en = ["veal chops", "herbs", "olive oil"]
+ingredients_de = ["Kalbskoteletts", "Kräuter", "Olivenöl"]
+
+[[items]]
+slug       = "bri-qingj"
+category   = "mains"
+price      = 1200
+weight     = 62
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Bri Qingji (450 g)"
+title_en = "Lamb Ribs (450 g)"
+title_de = "Lammrippen (450 g)"
+
+desc_sq = """Brinjë qingji të pjekura ngadalë me barishte mali — shumë të buta."""
+desc_en = """Slow-roasted lamb ribs seasoned with mountain herbs — fall-off-the-bone tender."""
+desc_de = """Langsam geschmorte Lammrippen mit Bergkräutern — butterzart."""
+
+ingredients_sq = ["brinjë qingji", "barishte", "vaj ulliri"]
+ingredients_en = ["lamb ribs", "herbs", "olive oil"]
+ingredients_de = ["Lammrippen", "Kräuter", "Olivenöl"]
+
+[[items]]
+slug       = "bruskete-gruri"
+category   = "sides"
+price      = 200
+weight     = 23
+vegetarian = true
+spicy      = false
+allergens  = ["gluten"]
+
+title_sq = "Bruskete Gruri"
+title_en = "Corn Bruschetta"
+title_de = "Maisbruschetta"
+
+desc_sq = """Bukë gruri e tostuar me domate të freskëta dhe hudër."""
+desc_en = """Toasted corn bread topped with fresh tomato and garlic."""
+desc_de = """Geröstetes Maisbrot mit frischen Tomaten und Knoblauch."""
+
+ingredients_sq = ["bukë gruri", "domate", "hudër", "vaj ulliri"]
+ingredients_en = ["corn bread", "tomatoes", "garlic", "olive oil"]
+ingredients_de = ["Maisbrot", "Tomaten", "Knoblauch", "Olivenöl"]
+
+[[items]]
+slug       = "bruskete-misri"
+category   = "sides"
+price      = 200
+weight     = 24
+vegetarian = true
+spicy      = false
+allergens  = ["gluten"]
+
+title_sq = "Bruskete Misri"
+title_en = "Wheat Bruschetta"
+title_de = "Weizenbruschetta"
+
+desc_sq = """Bukë misri e tostuar me domate dhe hudër."""
+desc_en = """Toasted wheat bread rubbed with garlic and topped with fresh tomato."""
+desc_de = """Geröstetes Weizenbrot mit Knoblauch und frischen Tomaten."""
+
+ingredients_sq = ["bukë misri", "domate", "hudër", "vaj ulliri"]
+ingredients_en = ["wheat bread", "tomatoes", "garlic", "olive oil"]
+ingredients_de = ["Weizenbrot", "Tomaten", "Knoblauch", "Olivenöl"]
+
+[[items]]
+slug       = "buke-misri-salce-shellire"
+category   = "sides"
+price      = 200
+weight     = 25
+vegetarian = true
+spicy      = false
+allergens  = ["gluten", "bulmet"]
+
+title_sq = "Bukë Misri me Salcë Shëllire"
+title_en = "Corn Bread with Yogurt Sauce"
+title_de = "Maisbrot mit Joghurtsauce"
+
+desc_sq = """Bukë misri tradicionale e shërbyer me salcë kosi me hudër."""
+desc_en = """Traditional corn bread served with a cool garlic yogurt dipping sauce."""
+desc_de = """Traditionelles Maisbrot serviert mit kühler Knoblauch-Joghurt-Sauce."""
+
+ingredients_sq = ["bukë misri", "kos", "hudër", "barishte"]
+ingredients_en = ["corn bread", "yogurt", "garlic", "herbs"]
+ingredients_de = ["Maisbrot", "Joghurt", "Knoblauch", "Kräuter"]
+
+[[items]]
+slug       = "byrek-shtepie"
+category   = "sides"
+price      = 200
+weight     = 26
+vegetarian = true
+spicy      = false
+allergens  = ["gluten", "bulmet", "vezë"]
+
+title_sq = "Byrek Shtëpie"
+title_en = "Homemade Byrek"
+title_de = "Hausgemachter Byrek"
+
+desc_sq = """Byrek i bërë në shtëpi me petë krokante dhe mbushje djathi të bardhë."""
+desc_en = """House-made Albanian byrek — flaky filo pastry filled with creamy white cheese."""
+desc_de = """Hausgemachter albanischer Byrek — knuspriger Filoteig gefüllt mit cremigem Weißkäse."""
+
+ingredients_sq = ["petë", "djathë", "vezë", "gjalpë"]
+ingredients_en = ["filo pastry", "cheese", "eggs", "butter"]
+ingredients_de = ["Filoteig", "Käse", "Eier", "Butter"]
+
+[[items]]
+slug       = "djath-dhie"
+category   = "starters"
+price      = 250
+weight     = 31
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Djath Dhie"
+title_en = "Goat Cheese"
+title_de = "Ziegenkäse"
+
+desc_sq = """Djathë i freskët dhie vendor i veshur me vaj ulliri dhe barishte."""
+desc_en = """Fresh local goat cheese drizzled with olive oil and herbs."""
+desc_de = """Frischer lokaler Ziegenkäse mit Olivenöl und Kräutern."""
+
+ingredients_sq = ["djathë dhie", "vaj ulliri", "barishte"]
+ingredients_en = ["goat cheese", "olive oil", "herbs"]
+ingredients_de = ["Ziegenkäse", "Olivenöl", "Kräuter"]
+
+[[items]]
+slug       = "djath-i-bardhe"
+category   = "starters"
+price      = 200
+weight     = 32
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Djath i Bardhë"
+title_en = "White Cheese"
+title_de = "Weißkäse"
+
+desc_sq = """Djathë klasik shqiptar i bardhë — i butë dhe kremoz, ideal me bukë."""
+desc_en = """Classic Albanian white cheese — mild, creamy, and perfect alongside bread."""
+desc_de = """Klassischer albanischer Weißkäse — mild, cremig und ideal zum Brot."""
+
+ingredients_sq = ["djathë i bardhë"]
+ingredients_en = ["white cheese"]
+ingredients_de = ["Weißkäse"]
+
+[[items]]
+slug       = "djath-kaqkavall"
+category   = "starters"
+price      = 300
+weight     = 30
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Djath Kaqkavall (Zgare)"
+title_en = "Grilled Kashkaval Cheese"
+title_de = "Gegrillter Kashkaval-Käse"
+
+desc_sq = """Kaqkavall i pjekur në zgarë — krokant nga jashtë, i shkrirë nga brenda."""
+desc_en = """Golden-grilled Kashkaval, Albania's favourite hard cheese. Crisp outside, melting inside."""
+desc_de = """Goldbraun gegrillter Kashkaval — Albaniens beliebtester Hartkäse. Außen knusprig, innen schmelzend."""
+
+ingredients_sq = ["djathë kaqkavall", "vaj ulliri"]
+ingredients_en = ["kashkaval cheese", "olive oil"]
+ingredients_de = ["Kashkaval-Käse", "Olivenöl"]
+
+[[items]]
+slug       = "fergese-tirane"
+category   = "starters"
+price      = 550
+weight     = 20
+vegetarian = false
+spicy      = false
+allergens  = ["dairy"]
+photo      = "fergese.jpg"
+
+title_sq = "Fërgesë Tiranë"
+title_en = "Fërgesë Tiranë"
+title_de = "Fërgesë Tiranë"
+
+desc_sq = """Klasike e Tiranës. Speca dhe domate të skuqura, të gatuara ngadalë me gjizë dhe pak mëlçi. Shërbehet e ngrohtë me bukë të freskët."""
+desc_en = """A Tirana classic. Sautéed peppers and tomatoes slow-cooked with cottage cheese and a hint of liver. Served warm with fresh bread."""
+desc_de = """Ein Klassiker aus Tirana. Gedünstete Paprika und Tomaten, langsam gegart mit Hüttenkäse und einem Hauch Leber. Warm mit frischem Brot serviert."""
+
+ingredients_sq = ["speca", "domate", "gjizë", "mëlçi", "vaj ulliri"]
+ingredients_en = ["peppers", "tomatoes", "cottage cheese", "liver", "olive oil"]
+ingredients_de = ["Paprika", "Tomaten", "Hüttenkäse", "Leber", "Olivenöl"]
+
+[[items]]
+slug       = "fileto-pule"
+category   = "mains"
+price      = 600
+weight     = 66
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Filetë Pule"
+title_en = "Chicken Fillet"
+title_de = "Hähnchenfilet"
+
+desc_sq = """Filetë pule e pjekur në zgarë, e lëngshme dhe me aromë barishte."""
+desc_en = """Grilled chicken fillet, moist and lightly seasoned with herbs."""
+desc_de = """Gegrilltes Hähnchenfilet, saftig und leicht mit Kräutern gewürzt."""
+
+ingredients_sq = ["gjoks pule", "barishte", "vaj ulliri"]
+ingredients_en = ["chicken breast", "herbs", "olive oil"]
+ingredients_de = ["Hähnchenbrust", "Kräuter", "Olivenöl"]
+
+[[items]]
+slug       = "gjalp-recel"
+category   = "breakfast"
+price      = 200
+weight     = 54
+vegetarian = true
+spicy      = false
+allergens  = ["gluten", "bulmet"]
+
+title_sq = "Gjalpë dhe Reçel"
+title_en = "Butter & Jam"
+title_de = "Butter & Marmelade"
+
+desc_sq = """Bukë e freskët e tostuar me gjalpë dhe reçel shtëpie. Shërbehet 09:00–12:00."""
+desc_en = """Freshly toasted bread with butter and house jam. Served 09:00–12:00."""
+desc_de = """Frisch geröstetes Brot mit Butter und Hausmarmelade. Serviert 09:00–12:00."""
+
+ingredients_sq = ["bukë", "gjalpë", "reçel"]
+ingredients_en = ["bread", "butter", "jam"]
+ingredients_de = ["Brot", "Butter", "Marmelade"]
+
+[[items]]
+slug       = "kallamar"
+category   = "mains"
+price      = 1100
+weight     = 69
+vegetarian = false
+spicy      = false
+allergens  = ["molusqe"]
+
+title_sq = "Kallamar"
+title_en = "Squid"
+title_de = "Tintenfisch"
+
+desc_sq = """Unaza kallamari të buta të skuqura ose zgare me hudër, limon dhe barishte."""
+desc_en = """Tender squid rings grilled or pan-fried with garlic, lemon, and herbs."""
+desc_de = """Zarte Tintenfischringe vom Grill oder aus der Pfanne mit Knoblauch, Zitrone und Kräutern."""
+
+ingredients_sq = ["kallamar", "hudër", "limon", "vaj ulliri", "barishte"]
+ingredients_en = ["squid", "garlic", "lemon", "olive oil", "herbs"]
+ingredients_de = ["Tintenfisch", "Knoblauch", "Zitrone", "Olivenöl", "Kräuter"]
+
+[[items]]
+slug       = "koce-zgare"
+category   = "mains"
+price      = 900
+weight     = 68
+vegetarian = false
+spicy      = false
+allergens  = ["peshk"]
+
+title_sq = "Koce Zgare (450 g)"
+title_en = "Grilled Mullet (450 g)"
+title_de = "Gegrillte Meeräsche (450 g)"
+
+desc_sq = """Koce e freskët e pjekur e tëra me vaj ulliri, limon dhe barishte mesdhetare."""
+desc_en = """Fresh mullet grilled whole with olive oil, lemon, and Mediterranean herbs."""
+desc_de = """Frische Meeräsche, ganz gegrillt mit Olivenöl, Zitrone und mediterranen Kräutern."""
+
+ingredients_sq = ["koce", "limon", "vaj ulliri", "barishte"]
+ingredients_en = ["mullet", "lemon", "olive oil", "herbs"]
+ingredients_de = ["Meeräsche", "Zitrone", "Olivenöl", "Kräuter"]
+
+[[items]]
+slug       = "levrek-zgare"
+category   = "mains"
+price      = 1000
+weight     = 67
+vegetarian = false
+spicy      = false
+allergens  = ["peshk"]
+
+title_sq = "Levrek Zgare (430 g)"
+title_en = "Grilled Sea Bass (430 g)"
+title_de = "Gegrillter Wolfsbarsch (430 g)"
+
+desc_sq = """Levrek i tërë i pjekur mbi thëngjij me limon dhe barishte të freskëta."""
+desc_en = """Whole sea bass grilled over charcoal with lemon and fresh herbs."""
+desc_de = """Ganzer Wolfsbarsch über Holzkohle gegrillt mit Zitrone und frischen Kräutern."""
+
+ingredients_sq = ["levrek", "limon", "vaj ulliri", "barishte"]
+ingredients_en = ["sea bass", "lemon", "olive oil", "herbs"]
+ingredients_de = ["Wolfsbarsch", "Zitrone", "Olivenöl", "Kräuter"]
+
+[[items]]
+slug       = "menu-g20-mix"
+category   = "mains"
+price      = 3500
+weight     = 80
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Menu G20 – Mix Mishrash"
+title_en = "G20 Mixed Meat Platter"
+title_de = "G20 Fleischplatte"
+
+desc_sq = """Pjata e madhe ndaj-ndaj e mishrave tanë më të mirë të zgares. E vogël: 2600L / E madhe: 3500L."""
+desc_en = """The ultimate sharing platter — a selection of our finest grilled meats. Large: 3500L / Small: 2600L."""
+desc_de = """Die ultimative Teilplatte — eine Auswahl unserer besten Grillspezialitäten. Klein: 2600L / Groß: 3500L."""
+
+ingredients_sq = ["mish derri", "qengji", "pulë", "salliqe", "perime zgare"]
+ingredients_en = ["pork", "lamb", "chicken", "sausages", "grilled vegetables"]
+ingredients_de = ["Schweinefleisch", "Lamm", "Hähnchen", "Würste", "gegrilltes Gemüse"]
+
+[[items]]
+slug       = "mish-gici-i-tymosur"
+category   = "mains"
+price      = 700
+weight     = 65
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Mish Gici i Thatë dhe i Tymosur (450 g)"
+title_en = "Marinated Smoked Pork (450 g)"
+title_de = "Mariniertes Räucherschwein (450 g)"
+
+desc_sq = """Mish derri i marinuar dhe i tymosur lehtë, i pjekur me porosi — specialitet i shtëpisë."""
+desc_en = """Dry-marinated, lightly smoked pork grilled to order — a house speciality."""
+desc_de = """Trockenmariniertes, leicht geräuchertes Schweinefleisch vom Grill — Hausspecialität."""
+
+ingredients_sq = ["mish derri", "marinadë", "tym"]
+ingredients_en = ["pork", "marinade", "smoke"]
+ingredients_de = ["Schweinefleisch", "Marinade", "Rauch"]
+
+[[items]]
+slug       = "mish-gici-zgare"
+category   = "mains"
+price      = 600
+weight     = 60
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Mish Gici Zgare (500 g)"
+title_en = "Grilled Pork (500 g)"
+title_de = "Gegrilltes Schweinefleisch (500 g)"
+
+desc_sq = """500 g mish derri i marinuar dhe i pjekur mbi thëngjij — i butë dhe aromatik."""
+desc_en = """500 g of marinated pork grilled over charcoal — tender, smoky, and flavourful."""
+desc_de = """500 g mariniertes Schweinefleisch über Holzkohle gegrillt — zart und aromatisch."""
+
+ingredients_sq = ["mish derri", "barishte", "vaj ulliri"]
+ingredients_en = ["pork", "herbs", "olive oil"]
+ingredients_de = ["Schweinefleisch", "Kräuter", "Olivenöl"]
+
+[[items]]
+slug       = "mish-qingji-1kg"
+category   = "mains"
+price      = 2400
+weight     = 63
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Mish Qingji Zgare 1 kg (me porosi)"
+title_en = "Grilled Lamb (1 kg) – By Order"
+title_de = "Gegrilltes Lamm (1 kg) – auf Bestellung"
+
+desc_sq = """Një kilogram mish qingji i marinuar dhe i pjekur. Porosia bëhet paraprakisht."""
+desc_en = """A whole kilogram of grilled lamb, marinated in herbs and olive oil. Order in advance."""
+desc_de = """Ein ganzes Kilogramm gegrilltes Lamm, in Kräutern mariniert. Bitte vorbestellen."""
+
+ingredients_sq = ["mish qingji", "barishte", "vaj ulliri"]
+ingredients_en = ["lamb", "herbs", "olive oil"]
+ingredients_de = ["Lamm", "Kräuter", "Olivenöl"]
+
+[[items]]
+slug       = "mix-djathrash"
+category   = "starters"
+price      = 700
+weight     = 33
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Mix Djathrash"
+title_en = "Cheese Platter"
+title_de = "Käseplatte"
+
+desc_sq = """Pjatë e kuruar e djathërave shqiptarë e shërbyer me ullinj dhe bukë."""
+desc_en = """A curated selection of Albanian cheeses served with olives and bread."""
+desc_de = """Ausgewählte albanische Käsesorten mit Oliven und Brot."""
+
+ingredients_sq = ["djathë kaqkavall", "djathë i bardhë", "djathë dhie", "ullinj"]
+ingredients_en = ["kashkaval cheese", "white cheese", "goat cheese", "olives"]
+ingredients_de = ["Kashkaval", "Weißkäse", "Ziegenkäse", "Oliven"]
+
+[[items]]
+slug       = "omlet-perime"
+category   = "breakfast"
+price      = 300
+weight     = 50
+vegetarian = true
+spicy      = false
+allergens  = ["vezë"]
+
+title_sq = "Omlet me Perime"
+title_en = "Vegetable Omelette"
+title_de = "Gemüseomelett"
+
+desc_sq = """Omlet me perime stinore. Shërbehet 09:00–12:00."""
+desc_en = """Fluffy omelette filled with fresh seasonal vegetables. Served 09:00–12:00."""
+desc_de = """Lockeres Omelett mit frischem Saisongemüse. Serviert 09:00–12:00."""
+
+ingredients_sq = ["vezë", "perime të përziera", "vaj ulliri", "barishte"]
+ingredients_en = ["eggs", "mixed vegetables", "olive oil", "herbs"]
+ingredients_de = ["Eier", "gemischtes Gemüse", "Olivenöl", "Kräuter"]
+
+[[items]]
+slug       = "omlet-proshut"
+category   = "breakfast"
+price      = 450
+weight     = 52
+vegetarian = false
+spicy      = false
+allergens  = ["vezë"]
+
+title_sq = "Omlet me Proshutë"
+title_en = "Ham Omelette"
+title_de = "Schinkenomelett"
+
+desc_sq = """Omlet i artë me proshutë. Shërbehet 09:00–12:00."""
+desc_en = """Golden omelette stuffed with savoury ham. Served 09:00–12:00."""
+desc_de = """Goldenes Omelett gefüllt mit herzhaftem Schinken. Serviert 09:00–12:00."""
+
+ingredients_sq = ["vezë", "proshutë", "vaj ulliri"]
+ingredients_en = ["eggs", "ham", "olive oil"]
+ingredients_de = ["Eier", "Schinken", "Olivenöl"]
+
+[[items]]
+slug       = "omlet-veze-sy"
+category   = "breakfast"
+price      = 300
+weight     = 51
+vegetarian = true
+spicy      = false
+allergens  = ["vezë", "bulmet"]
+
+title_sq = "Vezë Sy"
+title_en = "Fried Eggs"
+title_de = "Spiegeleier"
+
+desc_sq = """Dy vezë të skuqura. Shërbehet 09:00–12:00."""
+desc_en = """Two eggs fried sunny-side-up in butter. Simple and satisfying. Served 09:00–12:00."""
+desc_de = """Zwei Spiegeleier in Butter. Einfach und sättigend. Serviert 09:00–12:00."""
+
+ingredients_sq = ["vezë", "gjalpë"]
+ingredients_en = ["eggs", "butter"]
+ingredients_de = ["Eier", "Butter"]
+
+[[items]]
+slug       = "patate-frit"
+category   = "sides"
+price      = 200
+weight     = 21
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Patate Frit"
+title_en = "French Fries"
+title_de = "Pommes Frites"
+
+desc_sq = """Patate të artë dhe krokante — shoqëruese e përkryer për çdo pjatë kryesore."""
+desc_en = """Golden, crispy fries — the perfect side to any main course."""
+desc_de = """Goldene, knusprige Pommes — die perfekte Beilage."""
+
+ingredients_sq = ["patate", "vaj", "kripë"]
+ingredients_en = ["potatoes", "oil", "salt"]
+ingredients_de = ["Kartoffeln", "Öl", "Salz"]
+
+[[items]]
+slug       = "patate-furre"
+category   = "sides"
+price      = 250
+weight     = 22
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Patate Furre"
+title_en = "Baked Potatoes"
+title_de = "Ofenkartoffeln"
+
+desc_sq = """Patate të pjekura në furrë me barishte dhe vaj ulliri."""
+desc_en = """Oven-baked potatoes with herbs and olive oil."""
+desc_de = """Im Ofen gebackene Kartoffeln mit Kräutern und Olivenöl."""
+
+ingredients_sq = ["patate", "vaj ulliri", "barishte"]
+ingredients_en = ["potatoes", "olive oil", "herbs"]
+ingredients_de = ["Kartoffeln", "Olivenöl", "Kräuter"]
+
+[[items]]
+slug       = "perime-zgare"
+category   = "sides"
+price      = 300
+weight     = 20
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Perime Zgare"
+title_en = "Grilled Vegetables"
+title_de = "Gegrilltes Gemüse"
+
+desc_sq = """Perime stinore të pjekura në zgarë dhe të veshura me vaj ulliri."""
+desc_en = """Seasonal vegetables grilled over an open flame and finished with olive oil."""
+desc_de = """Saisonales Gemüse auf offenem Feuer gegrillt und mit Olivenöl verfeinert."""
+
+ingredients_sq = ["kungulleshka", "patëllxhan", "speca", "domate", "vaj ulliri"]
+ingredients_en = ["zucchini", "eggplant", "peppers", "tomatoes", "olive oil"]
+ingredients_de = ["Zucchini", "Aubergine", "Paprika", "Tomaten", "Olivenöl"]
+
+[[items]]
+slug       = "pizza-kapricoza"
+category   = "pizza"
+price      = 500
+weight     = 43
+vegetarian = false
+spicy      = false
+allergens  = ["gluten", "bulmet"]
+
+title_sq = "Pizza Kapricoza"
+title_en = "Pizza Capricciosa"
+title_de = "Pizza Capricciosa"
+
+desc_sq = """Kapricoza e ngarkuar me proshutë, ullinj dhe kerpudha."""
+desc_en = """A loaded capricciosa with ham, olives, and mushrooms on a rich tomato base."""
+desc_de = """Reichhaltige Capricciosa mit Schinken, Oliven und Champignons."""
+
+ingredients_sq = ["salcë domatesh", "mozzarella", "proshutë", "ullinj", "kerpudha"]
+ingredients_en = ["tomato sauce", "mozzarella", "ham", "olives", "mushrooms"]
+ingredients_de = ["Tomatensauce", "Mozzarella", "Schinken", "Oliven", "Champignons"]
+
+[[items]]
+slug       = "pizza-margarita"
+category   = "pizza"
+price      = 400
+weight     = 40
+vegetarian = true
+spicy      = false
+allergens  = ["gluten", "bulmet"]
+
+title_sq = "Pizza Margarita"
+title_en = "Pizza Margherita"
+title_de = "Pizza Margherita"
+
+desc_sq = """Klasikja. Salcë domatesh, mozzarella e freskët dhe borzilok."""
+desc_en = """The classic. Tomato sauce, fresh mozzarella, and basil on a thin hand-stretched base."""
+desc_de = """Der Klassiker. Tomatensauce, frischer Mozzarella und Basilikum."""
+
+ingredients_sq = ["salcë domatesh", "mozzarella", "borzilok"]
+ingredients_en = ["tomato sauce", "mozzarella", "basil"]
+ingredients_de = ["Tomatensauce", "Mozzarella", "Basilikum"]
+
+[[items]]
+slug       = "pizza-pikante"
+category   = "pizza"
+price      = 600
+weight     = 42
+vegetarian = false
+spicy      = true
+allergens  = ["gluten", "bulmet"]
+
+title_sq = "Pizza Pikante"
+title_en = "Pizza Piccante"
+title_de = "Pizza Piccante"
+
+desc_sq = """Për ata që i duan pikante — me proshutë pikante dhe djegës."""
+desc_en = """For those who like it hot — topped with spicy cured ham and chilli."""
+desc_de = """Für alle, die es scharf mögen — mit scharfem Schinken und Chilli."""
+
+ingredients_sq = ["salcë domatesh", "mozzarella", "proshutë pikante"]
+ingredients_en = ["tomato sauce", "mozzarella", "spicy ham"]
+ingredients_de = ["Tomatensauce", "Mozzarella", "scharfer Schinken"]
+
+[[items]]
+slug       = "pizza-proshute"
+category   = "pizza"
+price      = 500
+weight     = 41
+vegetarian = false
+spicy      = false
+allergens  = ["gluten", "bulmet"]
+
+title_sq = "Pizza Proshutë"
+title_en = "Pizza Prosciutto"
+title_de = "Pizza Prosciutto"
+
+desc_sq = """Salcë domatesh, mozzarella dhe feta bujarë proshute."""
+desc_en = """Tomato sauce, mozzarella, and generous slices of ham."""
+desc_de = """Tomatensauce, Mozzarella und reichlich Schinken."""
+
+ingredients_sq = ["salcë domatesh", "mozzarella", "proshutë"]
+ingredients_en = ["tomato sauce", "mozzarella", "ham"]
+ingredients_de = ["Tomatensauce", "Mozzarella", "Schinken"]
+
+[[items]]
+slug       = "pule-me-jufka"
+category   = "pasta"
+price      = 2800
+weight     = 74
+vegetarian = false
+spicy      = false
+allergens  = ["gluten"]
+
+title_sq = "Pulë me Jufkë (1.5 kg)"
+title_en = "Chicken with Pasta (1.5 kg)"
+title_de = "Hähnchen mit Nudeln (1,5 kg)"
+
+desc_sq = """Pjatë e ngrohtë ndaj-ndaj me pulë mbi jufkë dhe oriz me lëng mishi. E madhe: 3000L."""
+desc_en = """A hearty sharing dish of chicken served over pasta and rice with rich gravy. Large: 3000L."""
+desc_de = """Herzhaftes Teilgericht: Hähnchen auf Nudeln und Reis mit Bratensauce. Groß: 3000L."""
+
+ingredients_sq = ["pulë", "jufkë", "oriz", "lëng mishi", "barishte"]
+ingredients_en = ["chicken", "pasta", "rice", "gravy", "herbs"]
+ingredients_de = ["Hähnchen", "Nudeln", "Reis", "Bratensauce", "Kräuter"]
+
+[[items]]
+slug       = "salc-kosi"
+category   = "starters"
+price      = 200
+weight     = 34
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Salcë Kosi"
+title_en = "Yogurt Sauce"
+title_de = "Joghurtsauce"
+
+desc_sq = """Kos i ftohtë me hudër — salcë klasike shqiptare."""
+desc_en = """Cool, garlicky Albanian yogurt — a classic dip and condiment."""
+desc_de = """Kühler Knoblauchjoghurt — ein klassischer albanischer Dip."""
+
+ingredients_sq = ["kos", "hudër", "kripë"]
+ingredients_en = ["yogurt", "garlic", "salt"]
+ingredients_de = ["Joghurt", "Knoblauch", "Salz"]
+
+[[items]]
+slug       = "sallate-fshati"
+category   = "salads"
+price      = 300
+weight     = 13
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Sallatë Fshati"
+title_en = "Village Salad"
+title_de = "Dorfsalat"
+
+desc_sq = """Sallatë tradicionale fshati me perime të freskëta dhe djathë të bardhë vendor."""
+desc_en = """Traditional Albanian village salad with fresh vegetables and white cheese."""
+desc_de = """Traditionell albanischer Dorfsalat mit frischem Gemüse und Weißkäse."""
+
+ingredients_sq = ["domate", "tranguj", "speca", "qepë", "djathë i bardhë", "vaj ulliri"]
+ingredients_en = ["tomatoes", "cucumber", "peppers", "onion", "white cheese", "olive oil"]
+ingredients_de = ["Tomaten", "Gurken", "Paprika", "Zwiebeln", "Weißkäse", "Olivenöl"]
+
+[[items]]
+slug       = "sallate-greke"
+category   = "salads"
+price      = 350
+weight     = 12
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Sallatë Greke"
+title_en = "Greek Salad"
+title_de = "Griechischer Salat"
+
+desc_sq = """Sallatë greke klasike me domate të freskëta, tranguj, ullinj kalamata dhe djathë feta."""
+desc_en = """Classic Greek salad with fresh tomatoes, cucumber, kalamata olives, and feta cheese."""
+desc_de = """Klassischer griechischer Salat mit frischen Tomaten, Gurken, Kalamata-Oliven und Feta."""
+
+ingredients_sq = ["domate", "tranguj", "ullinj", "djathë feta", "speca", "qepë", "vaj ulliri"]
+ingredients_en = ["tomatoes", "cucumber", "olives", "feta cheese", "peppers", "onion", "olive oil"]
+ingredients_de = ["Tomaten", "Gurken", "Oliven", "Feta-Käse", "Paprika", "Zwiebeln", "Olivenöl"]
+
+[[items]]
+slug       = "sallate-jeshile-ton-portokall"
+category   = "salads"
+price      = 450
+weight     = 10
+vegetarian = false
+spicy      = false
+allergens  = ["peshk"]
+
+title_sq = "Sallatë Jeshile – Ton & Portokall"
+title_en = "Green Salad – Tuna & Orange"
+title_de = "Grüner Salat – Thunfisch & Orange"
+
+desc_sq = """Gjelbërime të freskëta me ton dhe feta portokalli, të veshura me vaj ulliri."""
+desc_en = """Fresh mixed greens with tuna and orange slices, lightly dressed with olive oil."""
+desc_de = """Frischer Blattsalat mit Thunfisch und Orangenscheiben, leicht mit Olivenöl angemacht."""
+
+ingredients_sq = ["gjelbërime të freskëta", "ton", "portokall", "vaj ulliri"]
+ingredients_en = ["mixed greens", "tuna", "orange", "olive oil"]
+ingredients_de = ["Blattsalat", "Thunfisch", "Orange", "Olivenöl"]
+
+[[items]]
+slug       = "sallate-kuqe"
+category   = "salads"
+price      = 350
+weight     = 16
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Sallatë e Kuqe (Dietë)"
+title_en = "Diet Salad"
+title_de = "Diätsalat"
+
+desc_sq = """Sallatë e lehtë dhe freskuese e veshur me lëng limoni dhe vaj ulliri."""
+desc_en = """Light and refreshing diet salad dressed with lemon juice and a drizzle of olive oil."""
+desc_de = """Leichter, erfrischender Salat mit Zitronensaft und Olivenöl."""
+
+ingredients_sq = ["gjelbërime të përziera", "domate", "tranguj", "lëng limoni", "vaj ulliri"]
+ingredients_en = ["mixed greens", "tomatoes", "cucumber", "lemon juice", "olive oil"]
+ingredients_de = ["gemischte Blätter", "Tomaten", "Gurken", "Zitronensaft", "Olivenöl"]
+
+[[items]]
+slug       = "sallate-mix"
+category   = "salads"
+price      = 300
+weight     = 11
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Sallatë Mix"
+title_en = "Mixed Salad"
+title_de = "Gemischter Salat"
+
+desc_sq = """Sallatë e shtëpisë me perime stinore dhe vaj ulliri."""
+desc_en = """A generous house mixed salad with seasonal vegetables and olive oil dressing."""
+desc_de = """Großzügiger Hausmischsalat mit saisonalem Gemüse und Olivenöl-Dressing."""
+
+ingredients_sq = ["marule", "domate", "tranguj", "speca", "qepë", "vaj ulliri"]
+ingredients_en = ["lettuce", "tomatoes", "cucumber", "peppers", "onion", "olive oil"]
+ingredients_de = ["Salat", "Tomaten", "Gurken", "Paprika", "Zwiebeln", "Olivenöl"]
+
+[[items]]
+slug       = "sallate-qezar"
+category   = "salads"
+price      = 600
+weight     = 15
+vegetarian = false
+spicy      = false
+allergens  = ["bulmet", "gluten", "vezë"]
+
+title_sq = "Sallatë Qezar"
+title_en = "Caesar Salad"
+title_de = "Caesar Salat"
+
+desc_sq = """Marule krokante, parmixhan i grirë, krutonë dhe salcë qezar e shtëpisë."""
+desc_en = """Crisp romaine, shaved parmesan, croutons, and our house Caesar dressing."""
+desc_de = """Knackiger Römersalat, gehobelter Parmesan, Croutons und unser Haus-Caesar-Dressing."""
+
+ingredients_sq = ["marule romane", "parmixhan", "krutonë", "salcë qezar", "pulë"]
+ingredients_en = ["romaine lettuce", "parmesan", "croutons", "caesar dressing", "chicken"]
+ingredients_de = ["Römersalat", "Parmesan", "Croutons", "Caesar-Dressing", "Hähnchen"]
+
+[[items]]
+slug       = "sallate-turshi"
+category   = "salads"
+price      = 150
+weight     = 17
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Sallatë Turshi"
+title_en = "Pickled Salad"
+title_de = "Eingelegter Salat"
+
+desc_sq = """Perime stinore të turshitura në shtëpi — shoqëruese krokante dhe e thartë."""
+desc_en = """House-pickled seasonal vegetables — a crisp, tangy accompaniment."""
+desc_de = """Hausgemachtes saisonales Einlegegemüse — knackig und würzig."""
+
+ingredients_sq = ["perime të turshitura"]
+ingredients_en = ["pickled vegetables"]
+ingredients_de = ["eingelegtes Gemüse"]
+
+[[items]]
+slug       = "sallate-vogel"
+category   = "salads"
+price      = 200
+weight     = 14
+vegetarian = true
+spicy      = false
+allergens  = []
+
+title_sq = "Sallatë e Vogël Fshati"
+title_en = "Small Village Salad"
+title_de = "Kleiner Dorfsalat"
+
+desc_sq = """Versioni i vogël i sallatës sonë të fshatit — ideal si shoqëruese."""
+desc_en = """A smaller version of our village salad — perfect as a side."""
+desc_de = """Die kleinere Version unseres Dorfsalats — ideal als Beilage."""
+
+ingredients_sq = ["domate", "tranguj", "speca", "vaj ulliri"]
+ingredients_en = ["tomatoes", "cucumber", "peppers", "olive oil"]
+ingredients_de = ["Tomaten", "Gurken", "Paprika", "Olivenöl"]
+
+[[items]]
+slug       = "sallice-gici-zgare"
+category   = "mains"
+price      = 600
+weight     = 61
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Sallice Gici Zgare (430 g)"
+title_en = "Grilled Pork Sausages (430 g)"
+title_de = "Gegrillte Schweinswürste (430 g)"
+
+desc_sq = """Salliqe derri të bëra në shtëpi, të pjekura në zgarë."""
+desc_en = """House-made pork sausages grilled to perfection."""
+desc_de = """Hausgemachte Schweinswürste, perfekt gegrillt."""
+
+ingredients_sq = ["salliqe derri", "barishte"]
+ingredients_en = ["pork sausages", "herbs"]
+ingredients_de = ["Schweinswürste", "Kräuter"]
+
+[[items]]
+slug       = "spageti-bolognese"
+category   = "pasta"
+price      = 500
+weight     = 71
+vegetarian = false
+spicy      = false
+allergens  = ["gluten"]
+
+title_sq = "Spageti Bolognese"
+title_en = "Spaghetti Bolognese"
+title_de = "Spaghetti Bolognese"
+
+desc_sq = """Spageti klasike me ragù mishi të zier ngadalë."""
+desc_en = """Classic spaghetti with slow-simmered meat ragù."""
+desc_de = """Klassische Spaghetti mit langsam geschmortem Fleischragù."""
+
+ingredients_sq = ["spageti", "mish i grirë", "domate", "qepë", "hudër", "barishte"]
+ingredients_en = ["spaghetti", "ground beef", "tomatoes", "onion", "garlic", "herbs"]
+ingredients_de = ["Spaghetti", "Hackfleisch", "Tomaten", "Zwiebeln", "Knoblauch", "Kräuter"]
+
+[[items]]
+slug       = "spageti-carbonara"
+category   = "pasta"
+price      = 550
+weight     = 72
+vegetarian = false
+spicy      = false
+allergens  = ["gluten", "vezë", "bulmet"]
+
+title_sq = "Spageti Carbonara"
+title_en = "Spaghetti Carbonara"
+title_de = "Spaghetti Carbonara"
+
+desc_sq = """Carbonara në stilin romak: spageti me salcë kremoze vezësh dhe parmixhani me pancetë."""
+desc_en = """Roman-style carbonara: spaghetti coated in a silky egg and parmesan sauce with pancetta."""
+desc_de = """Römische Carbonara: Spaghetti in seidiger Ei-Parmesan-Sauce mit Pancetta."""
+
+ingredients_sq = ["spageti", "vezë", "pancetë", "parmixhan", "piper i zi"]
+ingredients_en = ["spaghetti", "eggs", "pancetta", "parmesan", "black pepper"]
+ingredients_de = ["Spaghetti", "Eier", "Pancetta", "Parmesan", "schwarzer Pfeffer"]
+
+[[items]]
+slug       = "spageti-fruta-deti"
+category   = "pasta"
+price      = 600
+weight     = 70
+vegetarian = false
+spicy      = false
+allergens  = ["gluten", "molusqe", "peshk", "krustaqe"]
+
+title_sq = "Spageti Fruta Deti"
+title_en = "Seafood Spaghetti"
+title_de = "Meeresfrüchte-Spaghetti"
+
+desc_sq = """Spageti me fruta deti të ndryshme në salcë të lehtë domatesh dhe verë të bardhë."""
+desc_en = """Spaghetti tossed with a medley of fresh seafood in a light tomato and white wine sauce."""
+desc_de = """Spaghetti mit frischen Meeresfrüchten in leichter Tomaten-Weißwein-Sauce."""
+
+ingredients_sq = ["spageti", "fruta deti të përziera", "hudër", "verë e bardhë", "domate", "vaj ulliri"]
+ingredients_en = ["spaghetti", "mixed seafood", "garlic", "white wine", "tomatoes", "olive oil"]
+ingredients_de = ["Spaghetti", "gemischte Meeresfrüchte", "Knoblauch", "Weißwein", "Tomaten", "Olivenöl"]
+
+[[items]]
+slug       = "spageti-me-salce"
+category   = "pasta"
+price      = 250
+weight     = 73
+vegetarian = true
+spicy      = false
+allergens  = ["gluten"]
+
+title_sq = "Spageti me Salcë"
+title_en = "Spaghetti with Tomato Sauce"
+title_de = "Spaghetti mit Tomatensauce"
+
+desc_sq = """Spageti e thjeshtë dhe e shijshme me salcë domatesh dhe hudër."""
+desc_en = """Simple and satisfying — spaghetti in a light garlic tomato sauce with fresh basil."""
+desc_de = """Einfach und köstlich — Spaghetti in leichter Knoblauch-Tomaten-Sauce mit Basilikum."""
+
+ingredients_sq = ["spageti", "salcë domatesh", "hudër", "borzilok", "vaj ulliri"]
+ingredients_en = ["spaghetti", "tomato sauce", "garlic", "basil", "olive oil"]
+ingredients_de = ["Spaghetti", "Tomatensauce", "Knoblauch", "Basilikum", "Olivenöl"]
+
+[[items]]
+slug       = "speca-me-gize"
+category   = "starters"
+price      = 250
+weight     = 35
+vegetarian = true
+spicy      = false
+allergens  = ["bulmet"]
+
+title_sq = "Speca me Gjizë"
+title_en = "Peppers with Cheese"
+title_de = "Paprika mit Käse"
+
+desc_sq = """Speca të buta të pjekura me gjizë kremoze."""
+desc_en = """Tender roasted peppers stuffed or topped with creamy white cheese."""
+desc_de = """Zarte geröstete Paprika mit cremigem Weißkäse."""
+
+ingredients_sq = ["speca të pjekura", "gjizë", "vaj ulliri"]
+ingredients_en = ["roasted peppers", "white cheese", "olive oil"]
+ingredients_de = ["geröstete Paprika", "Weißkäse", "Olivenöl"]
+
+[[items]]
+slug       = "supe-pule"
+category   = "starters"
+price      = 250
+weight     = 38
+vegetarian = false
+spicy      = false
+allergens  = []
+
+title_sq = "Supë Pule"
+title_en = "Chicken Stew"
+title_de = "Hühnersuppe"
+
+desc_sq = """Supë e ngrohtë e pules me perime stinore dhe barishte të freskëta."""
+desc_en = """Comforting slow-cooked chicken soup with seasonal vegetables and fresh herbs."""
+desc_de = """Herzhafte langsam gekochte Hühnersuppe mit saisonalem Gemüse und frischen Kräutern."""
+
+ingredients_sq = ["pulë", "perime", "barishte", "lëng mishi"]
+ingredients_en = ["chicken", "vegetables", "herbs", "broth"]
+ingredients_de = ["Huhn", "Gemüse", "Kräuter", "Brühe"]
+
+[[items]]
+slug       = "tave-dheu"
+category   = "starters"
+price      = 500
+weight     = 37
+vegetarian = false
+spicy      = false
+allergens  = ["bulmet", "vezë"]
+
+title_sq = "Tavë Dheu"
+title_en = "Tavë Dheu"
+title_de = "Tavë Dheu"
+
+desc_sq = """Pjatë tradicionale shqiptare e pjekur në tenxhere balte me qengji dhe salcë kosi."""
+desc_en = """A traditional Albanian clay-pot bake of tender lamb in a velvety yogurt and egg sauce."""
+desc_de = """Traditionelle albanische Tonkasserole mit zartem Lamm in cremiger Joghurt-Ei-Sauce."""
+
+ingredients_sq = ["qengji", "kos", "vezë", "oriz", "barishte"]
+ingredients_en = ["lamb", "yogurt", "eggs", "rice", "herbs"]
+ingredients_de = ["Lamm", "Joghurt", "Eier", "Reis", "Kräuter"]
+
+[[items]]
+slug       = "tave-kosi"
+category   = "mains"
+price      = 850
+weight     = 10
+vegetarian = false
+spicy      = false
+allergens  = ["dairy", "eggs"]
+photo      = "tave-kosi.jpg"
+
+title_sq = "Tavë Kosi"
+title_en = "Tavë Kosi"
+title_de = "Tavë Kosi"
+
+desc_sq = """Gjella kombëtare shqiptare. Mish qengji i pjekur në furrë me kos të trashë, vezë dhe oriz. E butë, e kremëzuar dhe plot shije."""
+desc_en = """Albania's national dish. Oven-baked lamb with thick yogurt, eggs, and rice. Tender, creamy, and deeply flavourful."""
+desc_de = """Albaniens Nationalgericht. Im Ofen gebackenes Lammfleisch mit dickem Joghurt, Eiern und Reis. Zart, cremig und voller Geschmack."""
+
+ingredients_sq = ["mish qengji", "kos", "vezë", "gjalpë", "oriz"]
+ingredients_en = ["lamb", "yogurt", "eggs", "butter", "rice"]
+ingredients_de = ["Lammfleisch", "Joghurt", "Eier", "Butter", "Reis"]
+
+[[items]]
+slug       = "tost-proshute"
+category   = "breakfast"
+price      = 180
+weight     = 53
+vegetarian = false
+spicy      = false
+allergens  = ["gluten"]
+
+title_sq = "Tost me Proshutë"
+title_en = "Ham Toast"
+title_de = "Schinkentoast"
+
+desc_sq = """Bukë e tostuar me proshutë. Shërbehet 09:00–12:00."""
+desc_en = """Toasted bread with ham — a quick and satisfying breakfast. Served 09:00–12:00."""
+desc_de = """Geröstetes Brot mit Schinken. Serviert 09:00–12:00."""
+
+ingredients_sq = ["bukë", "proshutë", "gjalpë"]
+ingredients_en = ["bread", "ham", "butter"]
+ingredients_de = ["Brot", "Schinken", "Butter"]

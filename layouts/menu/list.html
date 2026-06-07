@@ -4,23 +4,25 @@
   <h1 class="menu-page__title">{{ i18n "menu_heading" }}</h1>
   <p class="menu-page__subtitle">restaurant-g20.com</p>
 
+  {{ $lang := .Lang }}
   {{ $categories := slice "starters" "mains" "grills" "salads" "desserts" "drinks" }}
-  {{ $items := where .Site.RegularPages "Section" "menu" }}
+  {{ $allItems := hugo.Data.menu.items }}
 
   {{ range $categories }}
   {{ $cat := . }}
-  {{ $catItems := where $items "Params.category" $cat }}
+  {{ $catItems := where $allItems "category" $cat }}
   {{ if $catItems }}
 
   <section class="menu-category">
     <h2 class="menu-category__heading">{{ i18n (printf "menu_%s" $cat) }}</h2>
     <div class="menu-category__items">
-      {{ range sort $catItems "Params.weight" }}
+      {{ range sort $catItems "weight" }}
+      {{ $item := . }}
       <article class="menu-item">
 
-        {{ with .Params.photo }}
+        {{ with .photo }}
         <div class="menu-item__photo">
-          <img src="/photos/{{ . }}" alt="{{ $.Title }}"
+          <img src="/photos/{{ . }}" alt="{{ index $item (printf "title_%s" $lang) }}"
                loading="lazy"
                onerror="this.parentElement.style.display='none'" />
         </div>
@@ -29,15 +31,16 @@
         <div class="menu-item__details">
           <div class="menu-item__header">
             <h3 class="menu-item__name">
-              {{ .Title }}
-              {{ if .Params.vegetarian }}
+              {{ index $item (printf "title_%s" $lang) }}
+              {{ if .vegetarian }}
               <span class="menu-item__veg">{{ i18n "menu_veg" }}</span>
               {{ end }}
             </h3>
-            <span class="menu-item__price">{{ .Params.price }} L</span>
+            <span class="menu-item__price">{{ .price }} L</span>
           </div>
-          <p class="menu-item__desc">{{ .Summary }}</p>
-          {{ with .Params.ingredients }}
+          <p class="menu-item__desc">{{ index $item (printf "desc_%s" $lang) }}</p>
+          {{ $ing := index $item (printf "ingredients_%s" $lang) }}
+          {{ with $ing }}
           <p class="menu-item__ingredients">{{ delimit . ", " }}</p>
           {{ end }}
         </div>
