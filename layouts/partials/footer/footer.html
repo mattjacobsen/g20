@@ -2,7 +2,9 @@
   <div class="footer-grid">
 
     <div>
-      <span class="footer__logo">G20</span>
+      <div class="footer__logo">
+          {{ readFile "static/g20.svg" | safeHTML }}
+      </div>
       <p class="footer__tagline">{{ .Site.Params.description }}</p>
     </div>
 
@@ -11,7 +13,7 @@
       <ul class="footer-hours">
         {{ range .Site.Params.hours }}
         <li class="footer-hours__row">
-          <span>{{ if eq .label "weekdays" }}{{ i18n "contact_hours_weekdays" }}{{ else }}{{ i18n "contact_hours_weekend" }}{{ end }}</span>
+          <span>{{ i18n "contact_hours_daily" }}</span>
           <span>{{ .open }} – {{ .close }}</span>
         </li>
         {{ end }}

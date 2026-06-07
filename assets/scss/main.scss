@@ -821,10 +821,15 @@ p  { margin: 0; }
 .footer {
   &__logo {
     color: #fff;
-    font-size: 1.5rem;
-    font-weight: 700;
     display: block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+
+    svg {
+      height: 8rem;
+      width: auto;
+      display: block;
+      margin-inline: auto;
+    }
   }
 
   &__logo-image {
@@ -837,6 +842,7 @@ p  { margin: 0; }
   &__tagline {
     font-size: 0.875rem;
     line-height: 1.625;
+    text-align: center;
   }
 
   &__section-title {
