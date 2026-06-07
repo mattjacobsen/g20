@@ -37,6 +37,7 @@ $bp-md: 768px;
 html { scroll-behavior: smooth; scrollbar-gutter: stable both-edges; }
 
 body {
+  background-color: $stone-100;
     display: grid;
     grid-template-columns: 40px 1fr 40px;
     grid-template-rows: auto 1fr auto;
@@ -139,7 +140,7 @@ p  { margin: 0; }
   position: sticky;
   top: 0;
   z-index: 40;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: $stone-100;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid $stone-200;
 }
@@ -850,8 +851,8 @@ p  { margin: 0; }
 // ── Footer ────────────────────────────────────────────────────────────────────
 
 .site-footer {
-  background-color: $stone-900;
-  color: $stone-300;
+  background-color: $stone-100;
+  color: $stone-700;
   margin-top: 6rem;
 
   grid-column: 1/-1;
@@ -897,7 +898,7 @@ p  { margin: 0; }
   }
 
   &__section-title {
-    color: #fff;
+    color: $stone-800;
     font-weight: 600;
     margin: 0 0 0.75rem;
     text-transform: uppercase;
