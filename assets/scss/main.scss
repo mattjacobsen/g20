@@ -693,6 +693,14 @@ p  { margin: 0; }
   @media (min-width: $bp-md) { grid-template-columns: 1fr 1fr; }
 }
 
+.contact-photo {
+  border: 4px solid $amber-500;
+  //border-radius: 15px;
+  gap: 2rem;
+  max-width: 20dvh;
+  transform: rotate(3deg);
+}
+
 .contact-details {
   display: flex;
   flex-direction: column;
