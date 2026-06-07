@@ -59,7 +59,7 @@
           {{ range $.Translations }}
             {{ if eq .Lang $lang }}{{ $href = .RelPermalink }}{{ end }}
           {{ end }}
-          <a href="{{ $href }}"{{ if $isCurrent }} class="is-current"{{ end }}>{{ $lang }}</a>
+          <a href="{{ $href }}"{{ if $isCurrent }} class="is-current"{{ end }}>{{ if eq $lang "sq" }}Shqip{{ else }}{{ $lang }}{{ end }}</a>
         {{ end }}
       </div>
     </div>
