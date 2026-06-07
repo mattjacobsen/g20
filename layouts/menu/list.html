@@ -5,7 +5,7 @@
   <p class="menu-page__subtitle">restaurant-g20.com</p>
 
   {{ $lang := .Lang }}
-  {{ $categories := slice "starters" "mains" "grills" "salads" "desserts" "drinks" }}
+  {{ $categories := slice "starters" "breakfast" "mains" "grills" "pizza" "pasta" "salads" "sides" "desserts" "drinks" }}
   {{ $allItems := hugo.Data.menu.items }}
 
   {{ range $categories }}
