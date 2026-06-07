@@ -56,9 +56,9 @@ title_sq = "Bri Qingji (450 g)"
 title_en = "Lamb Ribs (450 g)"
 title_de = "Lammrippen (450 g)"
 
-desc_sq = """Brinjë qingji të pjekura ngadalë me barishte mali — shumë të buta."""
-desc_en = """Slow-roasted lamb ribs seasoned with mountain herbs — fall-off-the-bone tender."""
-desc_de = """Langsam geschmorte Lammrippen mit Bergkräutern — butterzart."""
+desc_sq = """Brinjë qingji të pjekura ngadalë me barishte mali, shumë të buta."""
+desc_en = """Slow-roasted lamb ribs seasoned with mountain herbs, fall-off-the-bone tender."""
+desc_de = """Langsam geschmorte Lammrippen mit Bergkräutern, butterzart."""
 
 ingredients_sq = ["brinjë qingji", "barishte", "vaj ulliri"]
 ingredients_en = ["lamb ribs", "herbs", "olive oil"]
@@ -141,8 +141,8 @@ title_en = "Homemade Byrek"
 title_de = "Hausgemachter Byrek"
 
 desc_sq = """Byrek i bërë në shtëpi me petë krokante dhe mbushje djathi të bardhë."""
-desc_en = """House-made Albanian byrek — flaky filo pastry filled with creamy white cheese."""
-desc_de = """Hausgemachter albanischer Byrek — knuspriger Filoteig gefüllt mit cremigem Weißkäse."""
+desc_en = """House-made Albanian byrek, flaky filo pastry filled with creamy white cheese."""
+desc_de = """Hausgemachter albanischer Byrek, knuspriger Filoteig gefüllt mit cremigem Weißkäse."""
 
 ingredients_sq = ["petë", "djathë", "vezë", "gjalpë"]
 ingredients_en = ["filo pastry", "cheese", "eggs", "butter"]
@@ -182,9 +182,9 @@ title_sq = "Djath i Bardhë"
 title_en = "White Cheese"
 title_de = "Weißkäse"
 
-desc_sq = """Djathë klasik shqiptar i bardhë — i butë dhe kremoz, ideal me bukë."""
-desc_en = """Classic Albanian white cheese — mild, creamy, and perfect alongside bread."""
-desc_de = """Klassischer albanischer Weißkäse — mild, cremig und ideal zum Brot."""
+desc_sq = """Djathë klasik shqiptar i bardhë, i butë dhe kremoz, ideal me bukë."""
+desc_en = """Classic Albanian white cheese, mild, creamy, and perfect alongside bread."""
+desc_de = """Klassischer albanischer Weißkäse, mild, cremig und ideal zum Brot."""
 
 ingredients_sq = ["djathë i bardhë"]
 ingredients_en = ["white cheese"]
@@ -203,9 +203,9 @@ title_sq = "Djath Kaqkavall (Zgare)"
 title_en = "Grilled Kashkaval Cheese"
 title_de = "Gegrillter Kashkaval-Käse"
 
-desc_sq = """Kaqkavall i pjekur në zgarë — krokant nga jashtë, i shkrirë nga brenda."""
+desc_sq = """Kaqkavall i pjekur në zgarë, krokant nga jashtë, i shkrirë nga brenda."""
 desc_en = """Golden-grilled Kashkaval, Albania's favourite hard cheese. Crisp outside, melting inside."""
-desc_de = """Goldbraun gegrillter Kashkaval — Albaniens beliebtester Hartkäse. Außen knusprig, innen schmelzend."""
+desc_de = """Goldbraun gegrillter Kashkaval, Albaniens beliebtester Hartkäse. Außen knusprig, innen schmelzend."""
 
 ingredients_sq = ["djathë kaqkavall", "vaj ulliri"]
 ingredients_en = ["kashkaval cheese", "olive oil"]
@@ -352,8 +352,8 @@ title_en = "G20 Mixed Meat Platter"
 title_de = "G20 Fleischplatte"
 
 desc_sq = """Pjata e madhe ndaj-ndaj e mishrave tanë më të mirë të zgares. E vogël: 2600L / E madhe: 3500L."""
-desc_en = """The ultimate sharing platter — a selection of our finest grilled meats. Large: 3500L / Small: 2600L."""
-desc_de = """Die ultimative Teilplatte — eine Auswahl unserer besten Grillspezialitäten. Klein: 2600L / Groß: 3500L."""
+desc_en = """The ultimate sharing platter, a selection of our finest grilled meats. Large: 3500L / Small: 2600L."""
+desc_de = """Die ultimative Teilplatte, eine Auswahl unserer besten Grillspezialitäten. Klein: 2600L / Groß: 3500L."""
 
 ingredients_sq = ["mish derri", "qengji", "pulë", "salliqe", "perime zgare"]
 ingredients_en = ["pork", "lamb", "chicken", "sausages", "grilled vegetables"]
@@ -372,9 +372,9 @@ title_sq = "Mish Gici i Thatë dhe i Tymosur (450 g)"
 title_en = "Marinated Smoked Pork (450 g)"
 title_de = "Mariniertes Räucherschwein (450 g)"
 
-desc_sq = """Mish derri i marinuar dhe i tymosur lehtë, i pjekur me porosi — specialitet i shtëpisë."""
-desc_en = """Dry-marinated, lightly smoked pork grilled to order — a house speciality."""
-desc_de = """Trockenmariniertes, leicht geräuchertes Schweinefleisch vom Grill — Hausspecialität."""
+desc_sq = """Mish derri i marinuar dhe i tymosur lehtë, i pjekur me porosi, specialitet i shtëpisë."""
+desc_en = """Dry-marinated, lightly smoked pork grilled to order, a house speciality."""
+desc_de = """Trockenmariniertes, leicht geräuchertes Schweinefleisch vom Grill, Hausspecialität."""
 
 ingredients_sq = ["mish derri", "marinadë", "tym"]
 ingredients_en = ["pork", "marinade", "smoke"]
@@ -393,9 +393,9 @@ title_sq = "Mish Gici Zgare (500 g)"
 title_en = "Grilled Pork (500 g)"
 title_de = "Gegrilltes Schweinefleisch (500 g)"
 
-desc_sq = """500 g mish derri i marinuar dhe i pjekur mbi thëngjij — i butë dhe aromatik."""
-desc_en = """500 g of marinated pork grilled over charcoal — tender, smoky, and flavourful."""
-desc_de = """500 g mariniertes Schweinefleisch über Holzkohle gegrillt — zart und aromatisch."""
+desc_sq = """500 g mish derri i marinuar dhe i pjekur mbi thëngjij, i butë dhe aromatik."""
+desc_en = """500 g of marinated pork grilled over charcoal, tender, smoky, and flavourful."""
+desc_de = """500 g mariniertes Schweinefleisch über Holzkohle gegrillt, zart und aromatisch."""
 
 ingredients_sq = ["mish derri", "barishte", "vaj ulliri"]
 ingredients_en = ["pork", "herbs", "olive oil"]
@@ -519,9 +519,9 @@ title_sq = "Patate Frit"
 title_en = "French Fries"
 title_de = "Pommes Frites"
 
-desc_sq = """Patate të artë dhe krokante — shoqëruese e përkryer për çdo pjatë kryesore."""
-desc_en = """Golden, crispy fries — the perfect side to any main course."""
-desc_de = """Goldene, knusprige Pommes — die perfekte Beilage."""
+desc_sq = """Patate të artë dhe krokante, shoqëruese e përkryer për çdo pjatë kryesore."""
+desc_en = """Golden, crispy fries, the perfect side to any main course."""
+desc_de = """Goldene, knusprige Pommes, die perfekte Beilage."""
 
 ingredients_sq = ["patate", "vaj", "kripë"]
 ingredients_en = ["potatoes", "oil", "salt"]
@@ -624,9 +624,9 @@ title_sq = "Pizza Pikante"
 title_en = "Pizza Piccante"
 title_de = "Pizza Piccante"
 
-desc_sq = """Për ata që i duan pikante — me proshutë pikante dhe djegës."""
-desc_en = """For those who like it hot — topped with spicy cured ham and chilli."""
-desc_de = """Für alle, die es scharf mögen — mit scharfem Schinken und Chilli."""
+desc_sq = """Për ata që i duan pikante, me proshutë pikante dhe djegës."""
+desc_en = """For those who like it hot, topped with spicy cured ham and chilli."""
+desc_de = """Für alle, die es scharf mögen, mit scharfem Schinken und Chilli."""
 
 ingredients_sq = ["salcë domatesh", "mozzarella", "proshutë pikante"]
 ingredients_en = ["tomato sauce", "mozzarella", "spicy ham"]
@@ -687,9 +687,9 @@ title_sq = "Salcë Kosi"
 title_en = "Yogurt Sauce"
 title_de = "Joghurtsauce"
 
-desc_sq = """Kos i ftohtë me hudër — salcë klasike shqiptare."""
-desc_en = """Cool, garlicky Albanian yogurt — a classic dip and condiment."""
-desc_de = """Kühler Knoblauchjoghurt — ein klassischer albanischer Dip."""
+desc_sq = """Kos i ftohtë me hudër, salcë klasike shqiptare."""
+desc_en = """Cool, garlicky Albanian yogurt, a classic dip and condiment."""
+desc_de = """Kühler Knoblauchjoghurt, ein klassischer albanischer Dip."""
 
 ingredients_sq = ["kos", "hudër", "kripë"]
 ingredients_en = ["yogurt", "garlic", "salt"]
@@ -834,9 +834,9 @@ title_sq = "Sallatë Turshi"
 title_en = "Pickled Salad"
 title_de = "Eingelegter Salat"
 
-desc_sq = """Perime stinore të turshitura në shtëpi — shoqëruese krokante dhe e thartë."""
-desc_en = """House-pickled seasonal vegetables — a crisp, tangy accompaniment."""
-desc_de = """Hausgemachtes saisonales Einlegegemüse — knackig und würzig."""
+desc_sq = """Perime stinore të turshitura në shtëpi, shoqëruese krokante dhe e thartë."""
+desc_en = """House-pickled seasonal vegetables, a crisp, tangy accompaniment."""
+desc_de = """Hausgemachtes saisonales Einlegegemüse, knackig und würzig."""
 
 ingredients_sq = ["perime të turshitura"]
 ingredients_en = ["pickled vegetables"]
@@ -855,9 +855,9 @@ title_sq = "Sallatë e Vogël Fshati"
 title_en = "Small Village Salad"
 title_de = "Kleiner Dorfsalat"
 
-desc_sq = """Versioni i vogël i sallatës sonë të fshatit — ideal si shoqëruese."""
-desc_en = """A smaller version of our village salad — perfect as a side."""
-desc_de = """Die kleinere Version unseres Dorfsalats — ideal als Beilage."""
+desc_sq = """Versioni i vogël i sallatës sonë të fshatit, ideal si shoqëruese."""
+desc_en = """A smaller version of our village salad, perfect as a side."""
+desc_de = """Die kleinere Version unseres Dorfsalats, ideal als Beilage."""
 
 ingredients_sq = ["domate", "tranguj", "speca", "vaj ulliri"]
 ingredients_en = ["tomatoes", "cucumber", "peppers", "olive oil"]
@@ -961,8 +961,8 @@ title_en = "Spaghetti with Tomato Sauce"
 title_de = "Spaghetti mit Tomatensauce"
 
 desc_sq = """Spageti e thjeshtë dhe e shijshme me salcë domatesh dhe hudër."""
-desc_en = """Simple and satisfying — spaghetti in a light garlic tomato sauce with fresh basil."""
-desc_de = """Einfach und köstlich — Spaghetti in leichter Knoblauch-Tomaten-Sauce mit Basilikum."""
+desc_en = """Simple and satisfying, spaghetti in a light garlic tomato sauce with fresh basil."""
+desc_de = """Einfach und köstlich, Spaghetti in leichter Knoblauch-Tomaten-Sauce mit Basilikum."""
 
 ingredients_sq = ["spageti", "salcë domatesh", "hudër", "borzilok", "vaj ulliri"]
 ingredients_en = ["spaghetti", "tomato sauce", "garlic", "basil", "olive oil"]
@@ -1067,7 +1067,7 @@ title_en = "Ham Toast"
 title_de = "Schinkentoast"
 
 desc_sq = """Bukë e tostuar me proshutë. Shërbehet 09:00–12:00."""
-desc_en = """Toasted bread with ham — a quick and satisfying breakfast. Served 09:00–12:00."""
+desc_en = """Toasted bread with ham, a quick and satisfying breakfast. Served 09:00–12:00."""
 desc_de = """Geröstetes Brot mit Schinken. Serviert 09:00–12:00."""
 
 ingredients_sq = ["bukë", "proshutë", "gjalpë"]
