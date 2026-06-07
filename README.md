@@ -1,7 +1,7 @@
 # Restaurant G20 — Website
 
 **Domain:** restaurant-g20.com  
-**Stack:** Hugo · Tailwind CSS (CDN) · Netlify  
+**Stack:** Hugo · Sass · Netlify  
 **Languages:** Albanian (default) · German (`/de/`) · English (`/en/`)
 
 ---
@@ -59,25 +59,19 @@ archetypes/menu.md      ← Template for new menu items
 ## Updating the menu
 
 ### Change a price
-Open e.g. `content/en/menu/tave-kosi.md` and update the `price` field:
+Open [data/menu.toml](data/menu.toml) and update the `price` field (given in LEK):
+
 ```yaml
 price: 950   # was 850
 ```
 Remember to update the same dish in `sq/` and `de/` too.
 
 ### Add a new dish
-```bash
-hugo new content/en/menu/my-new-dish.md
-hugo new content/de/menu/my-new-dish.md
-hugo new content/sq/menu/my-new-dish.md
-```
-Then fill in the frontmatter fields. The archetype (`archetypes/menu.md`) provides the template.
 
-### Remove a dish
-Set `draft: true` in the frontmatter, or delete the `.md` file.
+Open [data/menu.toml](data/menu.toml) and add the new dish, with i18n for sq, en, de
 
 ### Categories
-Available: `starters` · `mains` · `grills` · `salads` · `desserts` · `drinks`
+Available: `breakfast` · `starters` · `mains` · `grills` · `pizza` · `pasta` · `salads` · `sides` · `desserts` · `drinks`
 
 ---
 
