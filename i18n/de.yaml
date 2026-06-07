@@ -1,5 +1,6 @@
 # i18n/de.yaml  –  German UI strings
 nav_menu:       "Speisekarte"
+menu_back_top:  "↑ Nach oben"
 nav_contact:    "Kontakt"
 nav_about:      "Über uns"
 

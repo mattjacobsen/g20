@@ -2,19 +2,31 @@
 <div class="menu-page">
 
   <h1 class="menu-page__title">{{ i18n "menu_heading" }}</h1>
-  <p class="menu-page__subtitle">restaurant-g20.com</p>
 
   {{ $lang := .Lang }}
   {{ $categories := slice "starters" "breakfast" "mains" "grills" "pizza" "pasta" "salads" "sides" "desserts" "drinks" }}
   {{ $allItems := hugo.Data.menu.items }}
+
+  <nav class="menu-page__categories">
+    {{ range $categories }}
+    {{ $cat := . }}
+    {{ $catItems := where $allItems "category" $cat }}
+    {{ if $catItems }}
+    <a href="#{{ $cat }}">{{ i18n (printf "menu_%s" $cat) }}</a>
+    {{ end }}
+    {{ end }}
+  </nav>
 
   {{ range $categories }}
   {{ $cat := . }}
   {{ $catItems := where $allItems "category" $cat }}
   {{ if $catItems }}
 
-  <section class="menu-category">
-    <h2 class="menu-category__heading">{{ i18n (printf "menu_%s" $cat) }}</h2>
+  <section id="{{ $cat }}" class="menu-category">
+    <div class="menu-category__header">
+      <h2 class="menu-category__heading">{{ i18n (printf "menu_%s" $cat) }}</h2>
+      <a href="#" class="menu-category__top">{{ i18n "menu_back_top" }}</a>
+    </div>
     <div class="menu-category__items">
       {{ range sort $catItems "weight" }}
       {{ $item := . }}

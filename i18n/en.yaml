@@ -1,5 +1,6 @@
 # i18n/en.yaml  –  English UI strings
 nav_menu:       "Menu"
+menu_back_top:  "↑ Back to top"
 nav_contact:    "Contact"
 nav_about:      "About"
 

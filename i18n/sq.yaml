@@ -1,5 +1,6 @@
 # i18n/sq.yaml  –  Albanian UI strings
 nav_menu:       "Menu"
+menu_back_top:  "↑ Kthehu lart"
 nav_contact:    "Kontakt"
 nav_about:      "Rreth Nesh"
 
