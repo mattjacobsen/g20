@@ -18,7 +18,7 @@ summaryLength   = 30
     contentDir   = "content/sq"
 
     [languages.sq.params]
-      description = "Restorant tradicional shqiptar në zemër të qytetit."
+      description = "Kuzhinë tradicionale shqiptare."
 
   [languages.de]
     languageName = "Deutsch"
@@ -28,7 +28,7 @@ summaryLength   = 30
     contentDir   = "content/de"
 
     [languages.de.params]
-      description = "Traditionelle albanische Küche im Herzen der Stadt."
+      description = "Traditionelle albanische Küche."
 
   [languages.en]
     languageName = "English"
@@ -38,7 +38,7 @@ summaryLength   = 30
     contentDir   = "content/en"
 
     [languages.en.params]
-      description = "Traditional Albanian cuisine in the heart of the city."
+      description = "Traditional Albanian cuisine."
 
 # ── Global params ─────────────────────────────────────────────────────────────
 [params]
