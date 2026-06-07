@@ -251,6 +251,14 @@ p  { margin: 0; }
     opacity: 0.5;
   }
 
+  &__title-logo {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+    margin-bottom: 0.1em;
+  }
+
   &__content {
     position: relative;
     z-index: 10;
