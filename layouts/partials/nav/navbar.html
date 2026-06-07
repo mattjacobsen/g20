@@ -1,8 +1,9 @@
 <header class="site-header">
   <nav class="nav">
 
-    <a href="{{ "/" | relLangURL }}" class="nav__logo">G20</a>
-
+    <a href="{{ "/" | relLangURL }}" class="nav__logo">
+      {{ readFile "static/g20.svg" | safeHTML }}
+    </a>
     <ul class="nav__links">
       <li><a href="{{ "/menu/" | relLangURL }}">{{ i18n "nav_menu" }}</a></li>
       <li><a href="{{ "/pages/contact/" | relLangURL }}">{{ i18n "nav_contact" }}</a></li>
