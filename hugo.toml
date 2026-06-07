@@ -58,14 +58,8 @@ summaryLength   = 30
 
   # Opening hours — edit as needed
   [[params.hours]]
-    days  = "E Hënë – E Premte"   # shown in Albanian; i18n strings handle translation
-    label = "weekdays"
-    open  = "11:00"
-    close = "23:00"
-
-  [[params.hours]]
-    days  = "E Shtunë – E Diel"
-    label = "weekend"
+    days  = "E Hënë – E Premte"
+    label = "daily"
     open  = "11:00"
     close = "23:00"
 
