@@ -308,6 +308,8 @@ p  { margin: 0; }
   .gallery__item:hover .gallery__img { transform: scale(1.05); }
 }
 
+#carousel-grid .gallery__item { aspect-ratio: 3 / 4; }
+
 /* ── Menu preview (homepage) ────────────────────────────────────────────────── */
 
 .menu-preview {
