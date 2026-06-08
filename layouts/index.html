@@ -19,14 +19,12 @@
 <section class="gallery">
   <div class="gallery__inner">
     <div class="gallery__grid">
-      {{ $photos := slice "gallery-1.jpg" "gallery-2.jpg" "gallery-3.jpg" "gallery-4.jpg" }}
-      {{ range $photos }}
-      <div class="gallery__item">
-        <img src="/photos/{{ . }}" alt="Restaurant G20"
-             class="gallery__img"
-             loading="lazy"
-             onerror="this.parentElement.style.display='none'" />
-      </div>
+      {{ range first 4 (resources.Match "photos/gallery/*.jpg") }}
+        {{ $thumb := .Resize "600x webp q80" }}
+        <a class="gallery__item" href="{{ "/pages/gallery/" | relLangURL }}">
+          <img src="{{ $thumb.RelPermalink }}" alt="Restaurant G20"
+               class="gallery__img" loading="lazy" />
+        </a>
       {{ end }}
     </div>
   </div>

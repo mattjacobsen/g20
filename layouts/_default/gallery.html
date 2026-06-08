@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="gallery-page">
+  <div class="gallery-page__inner">
+    <h1 class="gallery-page__title">{{ i18n "nav_gallery" }}</h1>
+    <div class="gallery-page__grid">
+      {{ range resources.Match "photos/gallery/*.jpg" }}
+        {{ $thumb := .Resize "600x webp q80" }}
+        {{ $full  := .Resize "1600x webp q85" }}
+        <a class="gallery-page__item"
+           href="{{ $full.RelPermalink }}"
+           data-full="{{ $full.RelPermalink }}"
+           data-lightbox>
+          <img src="{{ $thumb.RelPermalink }}"
+               alt="Restaurant G20"
+               loading="lazy"
+               class="gallery-page__img" />
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<dialog id="lightbox" class="lightbox">
+  <img class="lightbox__img" src="" alt="Restaurant G20" />
+  <button class="lightbox__close" aria-label="Close">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+  <button class="lightbox__prev" aria-label="Previous photo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"/>
+    </svg>
+  </button>
+  <button class="lightbox__next" aria-label="Next photo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="9 18 15 12 9 6"/>
+    </svg>
+  </button>
+</dialog>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+(function () {
+  var dialog = document.getElementById('lightbox');
+  var img    = dialog.querySelector('.lightbox__img');
+  var items  = Array.from(document.querySelectorAll('[data-lightbox]'));
+  var current = 0;
+
+  function show(index) {
+    current = (index + items.length) % items.length;
+    img.src = items[current].dataset.full;
+    if (!dialog.open) dialog.showModal();
+  }
+
+  items.forEach(function (a, i) {
+    a.addEventListener('click', function (e) { e.preventDefault(); show(i); });
+  });
+
+  dialog.querySelector('.lightbox__close').addEventListener('click', function () { dialog.close(); });
+  dialog.querySelector('.lightbox__prev').addEventListener('click', function () { show(current - 1); });
+  dialog.querySelector('.lightbox__next').addEventListener('click', function () { show(current + 1); });
+
+  dialog.addEventListener('click', function (e) { if (e.target === dialog) dialog.close(); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!dialog.open) return;
+    if (e.key === 'ArrowLeft')  show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+    if (e.key === 'Escape')     dialog.close();
+  });
+})();
+</script>
+{{ end }}
