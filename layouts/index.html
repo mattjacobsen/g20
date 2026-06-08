@@ -19,7 +19,7 @@
 <section class="gallery">
   <div class="gallery__inner">
     <div class="gallery__grid">
-      {{ range first 4 (resources.Match "photos/gallery/*.jpg") }}
+      {{ range first 4 (resources.Match "photos/carousel/*.jpg") }}
         {{ $thumb := .Resize "600x webp q80" }}
         <a class="gallery__item" href="{{ "/pages/gallery/" | relLangURL }}">
           <img src="{{ $thumb.RelPermalink }}" alt="Restaurant G20"
