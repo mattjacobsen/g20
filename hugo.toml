@@ -44,7 +44,7 @@ summaryLength   = 30
 [params]
   # Contact — edit these when details change
   phone          = "+355 69 662 8215"
-  whatsapp       = "00355696628215"
+  whatsapp       = "355696628215"
   address        = "E851 Sh1, Lezhë 4501, Albania"
   coordinates    = "41.700610, 19.668695"
   googleMapsURL  = "https://maps.app.goo.gl/mnDbAbcEAcyF9onL8"
