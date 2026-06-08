@@ -18,17 +18,32 @@
 
 <section class="gallery">
   <div class="gallery__inner">
-    <div class="gallery__grid">
-      {{ range first 4 (resources.Match "photos/carousel/*.jpg") }}
-        {{ $thumb := .Resize "600x webp q80" }}
-        <a class="gallery__item" href="{{ "/pages/gallery/" | relLangURL }}">
-          <img src="{{ $thumb.RelPermalink }}" alt="Restaurant G20"
-               class="gallery__img" loading="lazy" />
-        </a>
-      {{ end }}
-    </div>
+    <div class="gallery__grid" id="carousel-grid"></div>
   </div>
 </section>
+<script>
+(function () {
+  var photos = [{{ range resources.Match "photos/carousel/*.jpg" }}{{ $t := .Resize "600x webp q80" }}"{{ $t.RelPermalink }}",{{ end }}];
+  var link = "{{ "/pages/gallery/" | relLangURL }}";
+  for (var i = photos.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = photos[i]; photos[i] = photos[j]; photos[j] = tmp;
+  }
+  var grid = document.getElementById('carousel-grid');
+  photos.slice(0, 4).forEach(function (src) {
+    var a = document.createElement('a');
+    a.className = 'gallery__item';
+    a.href = link;
+    var img = document.createElement('img');
+    img.src = src;
+    img.alt = 'Restaurant G20';
+    img.className = 'gallery__img';
+    img.addEventListener('load', function () { img.classList.add('loaded'); });
+    a.appendChild(img);
+    grid.appendChild(a);
+  });
+})();
+</script>
 
 <section class="menu-preview">
   <h2 class="menu-preview__heading">{{ i18n "menu_heading" }}</h2>

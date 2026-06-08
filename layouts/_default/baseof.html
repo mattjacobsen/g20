@@ -18,6 +18,12 @@
   {{ partial "social/whatsapp-fab.html" . }}
 
   <script src="/js/lang-redirect.js"></script>
+  <script>
+    document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
+      if (img.complete) { img.classList.add('loaded'); }
+      else { img.addEventListener('load', function() { img.classList.add('loaded'); }); }
+    });
+  </script>
   {{ block "scripts" . }}{{ end }}
 
 </body>
