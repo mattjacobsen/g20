@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 <section class="hero">
-  <div class="hero__bg" style="background-image: url('/photos/hero.webp')"></div>
+  {{ $heroSrc := resources.Get "photos/hero.webp" }}
+  {{ with $heroSrc }}{{ $heroSrc = .Resize "1600x webp q85" }}{{ end }}
+  <div class="hero__bg" style="background-image: url('{{ with $heroSrc }}{{ .RelPermalink }}{{ else }}/photos/hero.webp{{ end }}')"></div>
   <div class="hero__content">
     <h1 class="hero__title">
       Restorant <img src="/g20.svg" alt="G20" class="hero__title-logo" />

@@ -5,7 +5,12 @@
   <div class="contact-grid">
     <div class="contact-photo-wrap">
       <div class="contact-photo">
-        <img src="/photos/marious.jpg" alt="Marious" />
+        {{ $photo := resources.Get "photos/marious.jpg" }}
+        {{ with $photo }}
+          {{ $photo = .Filter images.AutoOrient }}
+          {{ $photo = $photo.Resize "800x webp q85" }}
+        {{ end }}
+        <img src="{{ with $photo }}{{ .RelPermalink }}{{ else }}/photos/marious.jpg{{ end }}" alt="Marious" />
       </div>
     </div>
 
