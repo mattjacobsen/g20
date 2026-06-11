@@ -10,7 +10,10 @@
           {{ $photo = .Filter images.AutoOrient }}
           {{ $photo = $photo.Resize "800x webp q85" }}
         {{ end }}
-        <img src="{{ with $photo }}{{ .RelPermalink }}{{ else }}/photos/marious.jpg{{ end }}" alt="Marious" />
+        <img
+          src="{{ with $photo }}{{ .RelPermalink }}{{ else }}/photos/marious.jpg{{ end }}"
+          alt="Marious"
+        />
       </div>
     </div>
 
@@ -20,8 +23,7 @@
         <ul class="contact-hours">
           {{ range .Site.Params.hours }}
           <li class="contact-hours__row">
-            <span>{{ i18n "contact_hours_daily" }}</span
-            >
+            <span>{{ i18n "contact_hours_daily" }}</span>
             <span>{{ .open }} – {{ .close }}</span>
           </li>
           {{ end }}
