@@ -143,8 +143,4 @@ See `docs/decap-cms-setup.md` (to be added) or https://decapcms.org/docs/hugo/
 
 ## Todo:
 
-- [] lazysizes LIQP image loading
-- [] photos for food (slug -> image resolution)
-- [] gallery page
-- [] google maps proper address
 - [] LEK/€ conversion?
